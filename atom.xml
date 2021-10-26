@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>文一的小站</title>
+  <icon>https://hexo.ejhu.com/icon.png</icon>
+  <subtitle>做正确的事，正确地做事</subtitle>
+  <link href="https://hexo.ejhu.com/atom.xml" rel="self"/>
+  
+  <link href="https://hexo.ejhu.com/"/>
+  <updated>2021-10-24T06:55:21.496Z</updated>
+  <id>https://hexo.ejhu.com/</id>
+  
+  <author>
+    <name>文一</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>无法开启 Windows 发送可选数据诊断</title>
+    <link href="https://hexo.ejhu.com/posts/bb724d7c/"/>
+    <id>https://hexo.ejhu.com/posts/bb724d7c/</id>
+    <published>2021-10-23T13:57:43.000Z</published>
+    <updated>2021-10-24T06:55:21.496Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h2&gt;&lt;p&gt;加入 Windows 预览体验计划需要开启发送数据诊断，然而有时候发送可选数据诊断无法开启，导致无法加入 Windows</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://hexo.ejhu.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="windows" scheme="https://hexo.ejhu.com/tags/windows/"/>
+    
+    <category term="电脑" scheme="https://hexo.ejhu.com/tags/%E7%94%B5%E8%84%91/"/>
+    
+    <category term="设置" scheme="https://hexo.ejhu.com/tags/%E8%AE%BE%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo点击文章变成了下载</title>
+    <link href="https://hexo.ejhu.com/posts/62f82767/"/>
+    <id>https://hexo.ejhu.com/posts/62f82767/</id>
+    <published>2021-09-04T14:05:43.000Z</published>
+    <updated>2021-09-05T12:52:02.721Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h3&gt;&lt;p&gt;最近我在修改 Hexo 的时候遇到了一个问题，部署到 Github 后访问显示这样：&lt;br&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="建站" scheme="https://hexo.ejhu.com/categories/%E5%BB%BA%E7%AB%99/"/>
+    
+    
+    <category term="hexo" scheme="https://hexo.ejhu.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>禁用XML-RPC服务</title>
+    <link href="https://hexo.ejhu.com/posts/27dbf04e/"/>
+    <id>https://hexo.ejhu.com/posts/27dbf04e/</id>
+    <published>2021-08-18T13:54:56.000Z</published>
+    <updated>2021-09-05T12:43:58.056Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="建站" scheme="https://hexo.ejhu.com/categories/%E5%BB%BA%E7%AB%99/"/>
+    
+    
+    <category term="wordpress,安全" scheme="https://hexo.ejhu.com/tags/wordpress-%E5%AE%89%E5%85%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://hexo.ejhu.com/posts/4a17b156/"/>
+    <id>https://hexo.ejhu.com/posts/4a17b156/</id>
+    <published>2021-08-05T03:44:12.324Z</published>
+    <updated>2021-08-15T13:15:21.771Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>https访问出现混合内容</title>
+    <link href="https://hexo.ejhu.com/posts/9dc375a9/"/>
+    <id>https://hexo.ejhu.com/posts/9dc375a9/</id>
+    <published>2021-08-01T23:10:00.000Z</published>
+    <updated>2021-08-15T12:45:55.207Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="建站" scheme="https://hexo.ejhu.com/categories/%E5%BB%BA%E7%AB%99/"/>
+    
+    <category term="笔记" scheme="https://hexo.ejhu.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="小站" scheme="https://hexo.ejhu.com/tags/%E5%B0%8F%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>QQ转跳链接</title>
+    <link href="https://hexo.ejhu.com/posts/6e92d8f6/"/>
+    <id>https://hexo.ejhu.com/posts/6e92d8f6/</id>
+    <published>2021-07-24T22:01:00.000Z</published>
+    <updated>2021-08-15T12:53:27.887Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近搭建了个人主页，需要在页面上添加社交链接，其中就有QQ链接。 我的个人主页：&lt;a href=&quot;https://i.ejhu.com/&quot;&gt;https://i.ejhu.com&lt;/a&gt; 添加链接后，点击图标打开页面，提示打开QQ程序。 &lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="分享" scheme="https://hexo.ejhu.com/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="页面" scheme="https://hexo.ejhu.com/tags/%E9%A1%B5%E9%9D%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>更换小站logo和favicon</title>
+    <link href="https://hexo.ejhu.com/posts/f9fcc7eb/"/>
+    <id>https://hexo.ejhu.com/posts/f9fcc7eb/</id>
+    <published>2021-07-18T21:06:00.000Z</published>
+    <updated>2021-08-15T12:53:50.786Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;前几天给小站更换logo和favicon，以前的logo和favicon是用同一张图片制作的。 &lt;img src=&quot;https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/07/20210718182411.jpg&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="建站" scheme="https://hexo.ejhu.com/categories/%E5%BB%BA%E7%AB%99/"/>
+    
+    <category term="随笔" scheme="https://hexo.ejhu.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="小站" scheme="https://hexo.ejhu.com/tags/%E5%B0%8F%E7%AB%99/"/>
+    
+    <category term="favicon" scheme="https://hexo.ejhu.com/tags/favicon/"/>
+    
+    <category term="logo" scheme="https://hexo.ejhu.com/tags/logo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>域名从阿里云转入到腾讯云</title>
+    <link href="https://hexo.ejhu.com/posts/807b1755/"/>
+    <id>https://hexo.ejhu.com/posts/807b1755/</id>
+    <published>2021-07-14T13:32:00.000Z</published>
+    <updated>2021-08-15T13:17:07.590Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;小站的域名以前在阿里云，现在转入到腾讯云了。之前给域名续费时，发现腾讯云域名价格比阿里云便宜一点，转入需要48元，而且小站的服务器是腾讯云的，放在一起方便管理。&lt;/p&gt;
+&lt;h2 id=&quot;转出阿里云&quot;&gt;&lt;a href=&quot;#转出阿里云&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="建站" scheme="https://hexo.ejhu.com/categories/%E5%BB%BA%E7%AB%99/"/>
+    
+    <category term="教程" scheme="https://hexo.ejhu.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="域名" scheme="https://hexo.ejhu.com/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+    <category term="小站" scheme="https://hexo.ejhu.com/tags/%E5%B0%8F%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>升级到Windows 11</title>
+    <link href="https://hexo.ejhu.com/posts/7b0385cc/"/>
+    <id>https://hexo.ejhu.com/posts/7b0385cc/</id>
+    <published>2021-06-30T19:05:00.000Z</published>
+    <updated>2021-08-15T13:20:59.369Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今天发现有些网友已经升级到Windows 11了，看起来很好看，我也要尝尝鲜。 [admonition title=”注意”</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://hexo.ejhu.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="windows" scheme="https://hexo.ejhu.com/tags/windows/"/>
+    
+    <category term="电脑" scheme="https://hexo.ejhu.com/tags/%E7%94%B5%E8%84%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>检查电脑能否升级到Windows 11</title>
+    <link href="https://hexo.ejhu.com/posts/495e9a7b/"/>
+    <id>https://hexo.ejhu.com/posts/495e9a7b/</id>
+    <published>2021-06-25T14:06:00.000Z</published>
+    <updated>2021-08-16T15:00:31.450Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今天看到网上消息说Windows 11就要来了，很期待我的电脑能升级到新系统。 官网介绍： &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="随笔" scheme="https://hexo.ejhu.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="工具" scheme="https://hexo.ejhu.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="windows" scheme="https://hexo.ejhu.com/tags/windows/"/>
+    
+    <category term="电脑" scheme="https://hexo.ejhu.com/tags/%E7%94%B5%E8%84%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>阿里云盘桌面端体验</title>
+    <link href="https://hexo.ejhu.com/posts/e6f321d3/"/>
+    <id>https://hexo.ejhu.com/posts/e6f321d3/</id>
+    <published>2021-06-17T21:51:00.000Z</published>
+    <updated>2021-08-15T13:25:26.876Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今天发现阿里云盘桌面端上线了。 &lt;img src=&quot;https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/06/20210626203626.jpg#vwid=1900&amp;vhei=910&quot; alt=&quot;阿里云盘官网&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="分享" scheme="https://hexo.ejhu.com/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="网盘" scheme="https://hexo.ejhu.com/tags/%E7%BD%91%E7%9B%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows10开启自动登录</title>
+    <link href="https://hexo.ejhu.com/posts/347a4273/"/>
+    <id>https://hexo.ejhu.com/posts/347a4273/</id>
+    <published>2021-06-12T22:44:00.000Z</published>
+    <updated>2021-08-15T13:28:37.064Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Windows10登录默认需要输入密码，有时候觉得麻烦，想要自动登录。&lt;/p&gt;
+&lt;h2 id=&quot;方法&quot;&gt;&lt;a href=&quot;#方法&quot; class=&quot;headerlink&quot; title=&quot;方法&quot;&gt;&lt;/a&gt;方法&lt;/h2&gt;&lt;h3 id=&quot;使用高级用户账户控制面板&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://hexo.ejhu.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="windows" scheme="https://hexo.ejhu.com/tags/windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小站完善计划</title>
+    <link href="https://hexo.ejhu.com/posts/76f17a78/"/>
+    <id>https://hexo.ejhu.com/posts/76f17a78/</id>
+    <published>2021-06-08T20:12:00.000Z</published>
+    <updated>2021-08-16T13:21:36.090Z</updated>
+    
+    
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
+    
+    
+    
+    <category term="日记" scheme="https://hexo.ejhu.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="文章" scheme="https://hexo.ejhu.com/tags/%E6%96%87%E7%AB%A0/"/>
+    
+    <category term="页面" scheme="https://hexo.ejhu.com/tags/%E9%A1%B5%E9%9D%A2/"/>
+    
+    <category term="utf8mb4" scheme="https://hexo.ejhu.com/tags/utf8mb4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>jsDelivr加速Github资源</title>
+    <link href="https://hexo.ejhu.com/posts/345485/"/>
+    <id>https://hexo.ejhu.com/posts/345485/</id>
+    <published>2021-06-06T22:31:00.000Z</published>
+    <updated>2021-08-15T12:38:56.560Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;[admonition]CDN的全称是Content Delivery Network，即&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://hexo.ejhu.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="仓库" scheme="https://hexo.ejhu.com/tags/%E4%BB%93%E5%BA%93/"/>
+    
+    <category term="cdn" scheme="https://hexo.ejhu.com/tags/cdn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>评论/时光机的时间格式</title>
+    <link href="https://hexo.ejhu.com/posts/eff1e6ec/"/>
+    <id>https://hexo.ejhu.com/posts/eff1e6ec/</id>
+    <published>2021-06-03T21:53:00.000Z</published>
+    <updated>2021-08-16T13:24:55.794Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近修改了小站评论日期格式，记录一下。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;  Typecho默认的日期格式是&lt;code&gt;F jS, Y \a\t h:i&lt;/code&gt;，实际显示&lt;code&gt;June 2nd, 2021 at 04:06 pm&lt;/code&gt; 。&lt;/li&gt;
+&lt;li&gt; </summary>
+        
+      
+    
+    
+    
+    <category term="建站" scheme="https://hexo.ejhu.com/categories/%E5%BB%BA%E7%AB%99/"/>
+    
+    
+    <category term="格式" scheme="https://hexo.ejhu.com/tags/%E6%A0%BC%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>性格主导色测试</title>
+    <link href="https://hexo.ejhu.com/posts/f4ee8c3/"/>
+    <id>https://hexo.ejhu.com/posts/f4ee8c3/</id>
+    <published>2021-05-29T16:17:00.000Z</published>
+    <updated>2021-08-16T14:06:52.301Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近网易云性格主导色测试很火，我也跟风测一下玩玩。 除了在APP中搜「&lt;strong&gt;颜色&lt;/strong&gt;」，下面的链接也可以打开测试页面。 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="分享" scheme="https://hexo.ejhu.com/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    <category term="随笔" scheme="https://hexo.ejhu.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="页面" scheme="https://hexo.ejhu.com/tags/%E9%A1%B5%E9%9D%A2/"/>
+    
+    <category term="歌曲" scheme="https://hexo.ejhu.com/tags/%E6%AD%8C%E6%9B%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网站状态页失效</title>
+    <link href="https://hexo.ejhu.com/posts/50b9e6e9/"/>
+    <id>https://hexo.ejhu.com/posts/50b9e6e9/</id>
+    <published>2021-05-16T20:47:00.000Z</published>
+    <updated>2021-08-16T14:10:35.419Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近没时间看小站，今天登录发现小站的监控页面出错了，到底是发生了什么让监控页面出错了呢？ &lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="建站" scheme="https://hexo.ejhu.com/categories/%E5%BB%BA%E7%AB%99/"/>
+    
+    
+    <category term="域名" scheme="https://hexo.ejhu.com/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+    <category term="页面" scheme="https://hexo.ejhu.com/tags/%E9%A1%B5%E9%9D%A2/"/>
+    
+    <category term="工具" scheme="https://hexo.ejhu.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《Positive Outlook》</title>
+    <link href="https://hexo.ejhu.com/posts/d9242619/"/>
+    <id>https://hexo.ejhu.com/posts/d9242619/</id>
+    <published>2021-04-29T21:02:00.000Z</published>
+    <updated>2021-08-16T14:11:38.104Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;今天观看火箭发射直播时，听到了非常熟悉的背景曲。这首曲子非常好听，听了使人有一种振奋人心的感觉，但是不知道它的名字。后来查了一下，这首曲子名叫&lt;strong&gt;《Positive</summary>
+        
+      
+    
+    
+    
+    <category term="分享" scheme="https://hexo.ejhu.com/categories/%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="歌曲" scheme="https://hexo.ejhu.com/tags/%E6%AD%8C%E6%9B%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>天气信息API错误</title>
+    <link href="https://hexo.ejhu.com/posts/45fe5939/"/>
+    <id>https://hexo.ejhu.com/posts/45fe5939/</id>
+    <published>2021-04-05T13:06:00.000Z</published>
+    <updated>2021-08-16T14:16:24.533Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;起因&quot;&gt;&lt;a href=&quot;#起因&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="建站" scheme="https://hexo.ejhu.com/categories/%E5%BB%BA%E7%AB%99/"/>
+    
+    
+    <category term="文章" scheme="https://hexo.ejhu.com/tags/%E6%96%87%E7%AB%A0/"/>
+    
+    <category term="插件" scheme="https://hexo.ejhu.com/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+    <category term="api" scheme="https://hexo.ejhu.com/tags/api/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>修改默认端口</title>
+    <link href="https://hexo.ejhu.com/posts/4a733b0d/"/>
+    <id>https://hexo.ejhu.com/posts/4a733b0d/</id>
+    <published>2021-03-29T21:50:00.000Z</published>
+    <updated>2021-08-16T14:18:30.339Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;之前发现总有一些陌生的IP尝试连接主要端口，怀疑是暴力破解攻击，尤其是22端口。使用默认端口不安全，容易被攻破，需要修改默认端口。&lt;/p&gt;
+&lt;h2 id=&quot;修改宝塔面板端口&quot;&gt;&lt;a href=&quot;#修改宝塔面板端口&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="建站" scheme="https://hexo.ejhu.com/categories/%E5%BB%BA%E7%AB%99/"/>
+    
+    
+    <category term="工具" scheme="https://hexo.ejhu.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="修改" scheme="https://hexo.ejhu.com/tags/%E4%BF%AE%E6%94%B9/"/>
+    
+  </entry>
+  
+</feed>
