@@ -2,9 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hexo.ejhu.com/music/</loc>
+    
+    <lastmod>2021-10-28</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://hexo.ejhu.com/about/</loc>
     
-    <lastmod>2021-10-26</lastmod>
+    <lastmod>2021-10-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hexo.ejhu.com/categories/</loc>
+    
+    <lastmod>2021-10-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hexo.ejhu.com/link/</loc>
+    
+    <lastmod>2021-10-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hexo.ejhu.com/photo/test/</loc>
+    
+    <lastmod>2021-10-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hexo.ejhu.com/photo/</loc>
+    
+    <lastmod>2021-10-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hexo.ejhu.com/tags/</loc>
+    
+    <lastmod>2021-10-28</lastmod>
     
   </url>
   
@@ -26,41 +68,6 @@
     <loc>https://hexo.ejhu.com/posts/27dbf04e/</loc>
     
     <lastmod>2021-09-05</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hexo.ejhu.com/tags/</loc>
-    
-    <lastmod>2021-08-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hexo.ejhu.com/photo/</loc>
-    
-    <lastmod>2021-08-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hexo.ejhu.com/link/</loc>
-    
-    <lastmod>2021-08-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hexo.ejhu.com/categories/</loc>
-    
-    <lastmod>2021-08-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hexo.ejhu.com/photo/test/</loc>
-    
-    <lastmod>2021-08-17</lastmod>
     
   </url>
   
