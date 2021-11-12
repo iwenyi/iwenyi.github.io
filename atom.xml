@@ -6,7 +6,7 @@
   <link href="https://hexo.ejhu.com/atom.xml" rel="self"/>
   
   <link href="https://hexo.ejhu.com/"/>
-  <updated>2021-10-24T06:55:21.496Z</updated>
+  <updated>2021-11-12T14:13:09.924Z</updated>
   <id>https://hexo.ejhu.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>安装 Windows 11 安卓子系统</title>
+    <link href="https://hexo.ejhu.com/posts/49401cbb/"/>
+    <id>https://hexo.ejhu.com/posts/49401cbb/</id>
+    <published>2021-11-02T15:00:43.000Z</published>
+    <updated>2021-11-12T14:13:09.924Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot; title=&quot;准备&quot;&gt;&lt;/a&gt;准备&lt;/h2&gt;&lt;div class=&quot;note warning disabled&quot;&gt;&lt;p&gt;需要已经加入 Windows</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://hexo.ejhu.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="windows" scheme="https://hexo.ejhu.com/tags/windows/"/>
+    
+    <category term="电脑" scheme="https://hexo.ejhu.com/tags/%E7%94%B5%E8%84%91/"/>
+    
+  </entry>
   
   <entry>
     <title>无法开启 Windows 发送可选数据诊断</title>
@@ -523,34 +550,6 @@
     <category term="插件" scheme="https://hexo.ejhu.com/tags/%E6%8F%92%E4%BB%B6/"/>
     
     <category term="api" scheme="https://hexo.ejhu.com/tags/api/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>修改默认端口</title>
-    <link href="https://hexo.ejhu.com/posts/4a733b0d/"/>
-    <id>https://hexo.ejhu.com/posts/4a733b0d/</id>
-    <published>2021-03-29T21:50:00.000Z</published>
-    <updated>2021-08-16T14:18:30.339Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;之前发现总有一些陌生的IP尝试连接主要端口，怀疑是暴力破解攻击，尤其是22端口。使用默认端口不安全，容易被攻破，需要修改默认端口。&lt;/p&gt;
-&lt;h2 id=&quot;修改宝塔面板端口&quot;&gt;&lt;a href=&quot;#修改宝塔面板端口&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="建站" scheme="https://hexo.ejhu.com/categories/%E5%BB%BA%E7%AB%99/"/>
-    
-    
-    <category term="工具" scheme="https://hexo.ejhu.com/tags/%E5%B7%A5%E5%85%B7/"/>
-    
-    <category term="修改" scheme="https://hexo.ejhu.com/tags/%E4%BF%AE%E6%94%B9/"/>
     
   </entry>
   

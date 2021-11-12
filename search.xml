@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>安装 Windows 11 安卓子系统</title>
+      <link href="/posts/49401cbb/"/>
+      <url>/posts/49401cbb/</url>
+      
+        <content type="html"><![CDATA[<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><div class="note warning disabled"><p>需要已经加入 Windows 预览体验计划，并且在预览体验成员设置选择 <strong>Beta 渠道。</strong>Windows 企业版、专业版或教育版可以开启 Hyper-V，Windows 家庭版没有此项功能。</p></div><p>1.在<strong>设置——时间和语言——语言 &amp; 区域——区域</strong>，把「<strong>国家或地区</strong>」改为美国。</p><p>2.确认 <strong>Hyper-V</strong> 是否开启，方法：</p><p>首先打开<strong>控制面板——程序和功能</strong>，然后点击「启用或关闭 Windows 功能」；</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/10/202110301828791.png" alt="程序和功能"></p><p>接下来在弹出的 Windows 功能选择框中勾选 <strong>Hyper-V</strong> 。</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/10/202110301834288.png" alt="启用或关闭 Windows 功能"></p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>打开 Microsoft Store，搜索下载 Amazon AppStore，或点击链接转跳：<a href="http://aka.ms/AmazonAppstore">http://aka.ms/AmazonAppstore</a>。点击安装后会提示下载 Windows Subsystem for Android，如图：</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/10/202110302147587.png" alt="Windows Subsystem for Android"></p><p>安装包比较大，需要等待一会儿。</p><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><p>安装完成后，打开 Windows Subsystem for Android，开启开发者模式。</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/11/202111012237069.png" alt="开启开发者模式"></p><p>然后点击「<strong>管理开发人员设置</strong>」，打开 Android 开发者选项页面开启「<strong>无线调试</strong>」，点击 IP 地址刷新获取 IP 地址。</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/11/202111012243396.png" alt="开启无线调试"></p><h3 id="安装应用"><a href="#安装应用" class="headerlink" title="安装应用"></a>安装应用</h3><p>由于已安装的 Amazon AppStore 需要美区帐号，而且可安装的应用较少，所以需要通过 adb 旁加载安装应用。</p><p>安装 adb，下载链接：<a href="https://dl.google.com/android/repository/platform-tools-latest-windows.zip">https://dl.google.com/android/repository/platform-tools-latest-windows.zip</a>，下载后解压。打开 <strong>Windows PowerShell</strong> 或<strong>命令提示符</strong>，然后 CD 到 adb 所在的文件夹（已解压），输入：</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">adb connect 127.0.0.1:58526</span><br></pre></td></tr></table></figure><p>连接成功如下图所示：</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/11/202111022124227.png" alt="adb 连接成功"></p><p>连接成功以后，接下来从应用商店下载 APK，我下载的是微信。首先 CD 到 APK 文件所在的文件夹，然后使用 adb install 命令安装应用，例如：</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">adb install 106_cf4bfe625373457f3f22e3c6cdecb77e.apk</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/11/202111022158028.png" alt="adb 安装应用"></p><p>安装完成后，应用在开始应用列表显示，也可以固定到任务栏。</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/11/202111022201177.jpg" alt="应用在应用列表和任务栏显示"></p><h3 id="使用应用"><a href="#使用应用" class="headerlink" title="使用应用"></a>使用应用</h3><p>运行比较稳定，没有出现闪退现象，应用截图：</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/11/202111022254477.png" alt="运行微信"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> windows </tag>
+            
+            <tag> 电脑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>无法开启 Windows 发送可选数据诊断</title>
       <link href="/posts/bb724d7c/"/>
       <url>/posts/bb724d7c/</url>
