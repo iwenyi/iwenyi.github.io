@@ -378,9 +378,9 @@
     <category term="日记" scheme="https://hexo.ejhu.com/categories/%E6%97%A5%E8%AE%B0/"/>
     
     
-    <category term="页面" scheme="https://hexo.ejhu.com/tags/%E9%A1%B5%E9%9D%A2/"/>
-    
     <category term="文章" scheme="https://hexo.ejhu.com/tags/%E6%96%87%E7%AB%A0/"/>
+    
+    <category term="页面" scheme="https://hexo.ejhu.com/tags/%E9%A1%B5%E9%9D%A2/"/>
     
     <category term="utf8mb4" scheme="https://hexo.ejhu.com/tags/utf8mb4/"/>
     
@@ -491,9 +491,9 @@
     <category term="建站" scheme="https://hexo.ejhu.com/categories/%E5%BB%BA%E7%AB%99/"/>
     
     
-    <category term="页面" scheme="https://hexo.ejhu.com/tags/%E9%A1%B5%E9%9D%A2/"/>
-    
     <category term="域名" scheme="https://hexo.ejhu.com/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+    <category term="页面" scheme="https://hexo.ejhu.com/tags/%E9%A1%B5%E9%9D%A2/"/>
     
     <category term="工具" scheme="https://hexo.ejhu.com/tags/%E5%B7%A5%E5%85%B7/"/>
     
@@ -547,9 +547,9 @@
     
     <category term="文章" scheme="https://hexo.ejhu.com/tags/%E6%96%87%E7%AB%A0/"/>
     
-    <category term="插件" scheme="https://hexo.ejhu.com/tags/%E6%8F%92%E4%BB%B6/"/>
-    
     <category term="api" scheme="https://hexo.ejhu.com/tags/api/"/>
+    
+    <category term="插件" scheme="https://hexo.ejhu.com/tags/%E6%8F%92%E4%BB%B6/"/>
     
   </entry>
   
