@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>让任务栏有趣起来的程序：RunCat</title>
+      <link href="/posts/81ed0df4/"/>
+      <url>/posts/81ed0df4/</url>
+      
+        <content type="html"><![CDATA[<h2>介绍</h2><p>最近在 Github 上发现一个有趣的程序，名字叫做<strong> RunCat</strong>。安装后会在任务栏显示一只奔跑的小猫，通过小猫奔跑的速度来判断 CPU 使用率，小猫奔跑的速度越快，CPU 使用率就越高。</p><p><img src="https://s3.bmp.ovh/imgs/2021/12/dcf1bec1baf56555.gif" alt="奔跑的小猫"></p><p>还可以换成一只摇头的鹦鹉，CPU 使用率越高，鹦鹉摇头的速度越快。</p><p><img src="https://s3.bmp.ovh/imgs/2021/12/961fa811808f7901.gif" alt="摇头的鹦鹉"></p><h2><strong>安装</strong></h2><p>Github 项目：<a rel="noreferrer noopener" href="https://github.com/Kyome22/RunCat_for_windows" data-type="URL" data-id="https://github.com/Kyome22/RunCat_for_windows" target="_blank">https://github.com/Kyome22/RunCat_for_windows</a></p><div class="note warning simple"><p>需要安装 .NET CORE 才能运行，已经安装  .NET CORE 选择 <a href="https://github.com/Kyome22/RunCat_for_windows/releases/download/1.10/RunCat_x64.zip">RunCat_x64.zip</a>，没有安装 .NET CORE 选择  <a href="https://github.com/Kyome22/RunCat_for_windows/releases/download/1.10/RunCat_with_.NET5.0.zip">RunCat_with_.NET5.0.zip</a>。</p></div><h2>使用</h2><p>下载完成后解压，双击运行 RunCat.exe，任务栏就会出现一只奔跑的小猫了。</p><p>如果使用的是 Windows 11 系统，可能不会在任务栏显示，需要在<strong>设置——个性化——任务栏——任务栏隐藏的图标管理</strong>中开启 RunCat。</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/12/202112071507513.png" alt="取消隐藏 RunCat 的图标"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+            <tag> 电脑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>安装 Windows 11 安卓子系统</title>
       <link href="/posts/49401cbb/"/>
       <url>/posts/49401cbb/</url>
