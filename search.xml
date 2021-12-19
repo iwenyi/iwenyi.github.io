@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Bing 无法访问</title>
+      <link href="/posts/dab91324/"/>
+      <url>/posts/dab91324/</url>
+      
+        <content type="html"><![CDATA[<div class="note success simple"><p><strong>现在（2021.12.18 11:21）Bing 可以访问了，恢复正常。</strong></p></div><p>昨天下午，我搜索资料时，发现 Bing 无法加载。我还以为是自己的网络问题，更换设备后还是打不开，今天看到 <a rel="noreferrer noopener" href="https://www.ithome.com/0/592/920.htm" target="_blank">IT 之家</a>消息后才知道部分地区无法访问。</p><blockquote><p>微软 Bing 表示，根据中华人民共和国法律，Bing 中国已经被政府有关部门要求在中国内地暂停“搜索自动建议”功能 30 天。作为全球性搜索平台，Bing 将持续致力于尊重法治与用户获取信息的权利，在遵守法律的前提下最大限度地帮助客户寻找所需信息。</p></blockquote><p>山东移动 Ping 100% 丢失，请求超时。</p><div class="wp-block-image"><figure class="aligncenter size-full is-resized"><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/12/202112172300427.png" alt="请求超时" width="734" height="380"/></figure></div><p><strong>临时解决方案：<a rel="noreferrer noopener" href="https://www4.bing.com" target="_blank">https://www4.bing.com</a>  </strong></p><h3>更新</h3><p>今天（2021.12.18 7:05）发现临时解决方案失效，山东移动 Ping 100% 丢失，只能用其他方法了。</p><div class="wp-block-image"><figure class="aligncenter size-full is-resized"><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/12/202112181124939.png" alt="请求超时" width="734" height="385"/></figure></div><p><strong>现在（2021.12.18 11:21）Bing 可以访问了，恢复正常。</strong></p><div class="wp-block-image"><figure class="aligncenter size-full is-resized"><img src="https://s3.bmp.ovh/imgs/2021/12/aca296ffd4a22257.png" alt="请求成功" width="734" height="385"/></figure></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 搜索 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>让任务栏有趣起来的程序：RunCat</title>
       <link href="/posts/81ed0df4/"/>
       <url>/posts/81ed0df4/</url>

@@ -6,7 +6,7 @@
   <link href="https://hexo.ejhu.com/atom.xml" rel="self"/>
   
   <link href="https://hexo.ejhu.com/"/>
-  <updated>2021-12-15T14:32:11.546Z</updated>
+  <updated>2021-12-19T14:02:48.128Z</updated>
   <id>https://hexo.ejhu.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Bing 无法访问</title>
+    <link href="https://hexo.ejhu.com/posts/dab91324/"/>
+    <id>https://hexo.ejhu.com/posts/dab91324/</id>
+    <published>2021-12-17T04:12:11.000Z</published>
+    <updated>2021-12-19T14:02:48.128Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;note success simple&quot;&gt;&lt;p&gt;&lt;strong&gt;现在（2021.12.18 11:21）Bing 可以访问了，恢复正常。&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;昨天下午，我搜索资料时，发现 Bing</summary>
+        
+      
+    
+    
+    
+    <category term="随笔" scheme="https://hexo.ejhu.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="搜索" scheme="https://hexo.ejhu.com/tags/%E6%90%9C%E7%B4%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>让任务栏有趣起来的程序：RunCat</title>
@@ -530,35 +558,6 @@
     
     
     <category term="歌曲" scheme="https://hexo.ejhu.com/tags/%E6%AD%8C%E6%9B%B2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>天气信息API错误</title>
-    <link href="https://hexo.ejhu.com/posts/45fe5939/"/>
-    <id>https://hexo.ejhu.com/posts/45fe5939/</id>
-    <published>2021-04-05T13:06:00.000Z</published>
-    <updated>2021-08-16T14:16:24.533Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;起因&quot;&gt;&lt;a href=&quot;#起因&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="建站" scheme="https://hexo.ejhu.com/categories/%E5%BB%BA%E7%AB%99/"/>
-    
-    
-    <category term="文章" scheme="https://hexo.ejhu.com/tags/%E6%96%87%E7%AB%A0/"/>
-    
-    <category term="api" scheme="https://hexo.ejhu.com/tags/api/"/>
-    
-    <category term="插件" scheme="https://hexo.ejhu.com/tags/%E6%8F%92%E4%BB%B6/"/>
     
   </entry>
   
