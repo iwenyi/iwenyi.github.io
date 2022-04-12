@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>解决 VMware 虚拟机运行时“内部错误”问题</title>
+      <link href="/posts/e27f22fd/"/>
+      <url>/posts/e27f22fd/</url>
+      
+        <content type="html"><![CDATA[<h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>最近在使用 VMware 虚拟机的时候，遇到了一个问题。问题出现在虚拟系统重新启动后，提示“内部错误”。</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2022/03/202203292226441.png" alt="内部错误"></p><p>搜索引擎搜出来的解决方法大部分不能解决这个问题，但有一篇文章给出的方法能解决这个问题，所以我记录下来以备以后查阅。</p><h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><p>打开虚拟机所在的文件夹，发现有两个虚拟机配置文件，其中一个比另一个多了 ~,然后把多出 ~ 的文件删除。</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2022/03/202203292241893.png" alt="两个虚拟机配置文件"></p><p>虚拟机可以正常启动了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电脑 </tag>
+            
+            <tag> 虚拟机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Bing 无法访问</title>
       <link href="/posts/dab91324/"/>
       <url>/posts/dab91324/</url>
@@ -153,7 +180,9 @@
       
         <tags>
             
-            <tag> wordpress,安全 </tag>
+            <tag> wordpress </tag>
+            
+            <tag> 安全 </tag>
             
         </tags>
       
