@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>解决 VMware 虚拟机运行时“内部错误”问题</title>
+      <link href="/posts/e27f22fd/"/>
+      <url>/posts/e27f22fd/</url>
+      
+        <content type="html"><![CDATA[<h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>最近在使用 VMware 虚拟机的时候，遇到了一个问题。问题出现在虚拟系统重新启动后，提示“内部错误”。</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2022/03/202203292226441.png" alt="内部错误"></p><p>搜索引擎搜出来的解决方法大部分不能解决这个问题，但有一篇文章给出的方法能解决这个问题，所以我记录下来以备以后查阅。</p><h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><p>打开虚拟机所在的文件夹，发现有两个虚拟机配置文件，其中一个比另一个多了 ~,然后把多出 ~ 的文件删除。</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2022/03/202203292241893.png" alt="两个虚拟机配置文件"></p><p>虚拟机可以正常启动了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电脑 </tag>
+            
+            <tag> 虚拟机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Bing 无法访问</title>
+      <link href="/posts/dab91324/"/>
+      <url>/posts/dab91324/</url>
+      
+        <content type="html"><![CDATA[<div class="note success simple"><p><code>&lt;strong&gt;</code>现在（2021.12.18 11:21）Bing 可以访问了，恢复正常。<code>&lt;/strong&gt;</code></p></div><p>昨天下午，我搜索资料时，发现 Bing 无法加载。我还以为是自己的网络问题，更换设备后还是打不开，今天看到 <a rel="noreferrer noopener" href="https://www.ithome.com/0/592/920.htm" target="_blank">IT 之家</a>消息后才知道部分地区无法访问。</p><blockquote><p>微软 Bing 表示，根据中华人民共和国法律，Bing 中国已经被政府有关部门要求在中国内地暂停“搜索自动建议”功能 30 天。作为全球性搜索平台，Bing 将持续致力于尊重法治与用户获取信息的权利，在遵守法律的前提下最大限度地帮助客户寻找所需信息。</p></blockquote><p>山东移动 Ping 100% 丢失，请求超时。</p><div class="wp-block-image"><figure class="aligncenter size-full is-resized"><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/12/202112172300427.png" alt="请求超时" width="734" height="380"/></figure></div><p><strong>临时解决方案：<a rel="noreferrer noopener" href="https://www4.bing.com" target="_blank">https://www4.bing.com</a>  </strong></p><h3>更新</h3><p>今天（2021.12.18 7:05）发现临时解决方案失效，山东移动 Ping 100% 丢失，只能用其他方法了。</p><div class="wp-block-image"><figure class="aligncenter size-full is-resized"><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/12/202112181124939.png" alt="请求超时" width="734" height="385"/></figure></div><p><strong>现在（2021.12.18 11:21）Bing 可以访问了，恢复正常。</strong></p><div class="wp-block-image"><figure class="aligncenter size-full is-resized"><img src="https://s3.bmp.ovh/imgs/2021/12/aca296ffd4a22257.png" alt="请求成功" width="734" height="385"/></figure></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 搜索 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>让任务栏有趣起来的程序：RunCat</title>
+      <link href="/posts/81ed0df4/"/>
+      <url>/posts/81ed0df4/</url>
+      
+        <content type="html"><![CDATA[<h2>介绍</h2><p>最近在 Github 上发现一个有趣的程序，名字叫做<strong> RunCat</strong>。安装后会在任务栏显示一只奔跑的小猫，通过小猫奔跑的速度来判断 CPU 使用率，小猫奔跑的速度越快，CPU 使用率就越高。</p><p><img src="https://s3.bmp.ovh/imgs/2021/12/dcf1bec1baf56555.gif" alt="奔跑的小猫"></p><p>还可以换成一只摇头的鹦鹉，CPU 使用率越高，鹦鹉摇头的速度越快。</p><p><img src="https://s3.bmp.ovh/imgs/2021/12/961fa811808f7901.gif" alt="摇头的鹦鹉"></p><h2><strong>安装</strong></h2><p>Github 项目：<a rel="noreferrer noopener" href="https://github.com/Kyome22/RunCat_for_windows" data-type="URL" data-id="https://github.com/Kyome22/RunCat_for_windows" target="_blank">https://github.com/Kyome22/RunCat_for_windows</a></p><div class="note warning simple"><p>需要安装 .NET CORE 才能运行，已经安装  .NET CORE 选择 <a href="https://github.com/Kyome22/RunCat_for_windows/releases/download/1.10/RunCat_x64.zip">RunCat_x64.zip</a>，没有安装 .NET CORE 选择  <a href="https://github.com/Kyome22/RunCat_for_windows/releases/download/1.10/RunCat_with_.NET5.0.zip">RunCat_with_.NET5.0.zip</a>。</p></div><h2>使用</h2><p>下载完成后解压，双击运行 RunCat.exe，任务栏就会出现一只奔跑的小猫了。</p><p>如果使用的是 Windows 11 系统，可能不会在任务栏显示，需要在<strong>设置——个性化——任务栏——任务栏隐藏的图标管理</strong>中开启 RunCat。</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/12/202112071507513.png" alt="取消隐藏 RunCat 的图标"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+            <tag> 电脑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>安装 Windows 11 安卓子系统</title>
+      <link href="/posts/49401cbb/"/>
+      <url>/posts/49401cbb/</url>
+      
+        <content type="html"><![CDATA[<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><div class="note warning disabled"><p>需要已经加入 Windows 预览体验计划，并且在预览体验成员设置选择 <strong>Beta 渠道。</strong>Windows 企业版、专业版或教育版可以开启 Hyper-V，Windows 家庭版没有此项功能。</p></div><p>1.在<strong>设置——时间和语言——语言 &amp; 区域——区域</strong>，把「<strong>国家或地区</strong>」改为美国。</p><p>2.确认 <strong>Hyper-V</strong> 是否开启，方法：</p><p>首先打开<strong>控制面板——程序和功能</strong>，然后点击「启用或关闭 Windows 功能」；</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/10/202110301828791.png" alt="程序和功能"></p><p>接下来在弹出的 Windows 功能选择框中勾选 <strong>Hyper-V</strong> 。</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/10/202110301834288.png" alt="启用或关闭 Windows 功能"></p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>打开 Microsoft Store，搜索下载 Amazon AppStore，或点击链接转跳：<a href="http://aka.ms/AmazonAppstore">http://aka.ms/AmazonAppstore</a>。点击安装后会提示下载 Windows Subsystem for Android，如图：</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/10/202110302147587.png" alt="Windows Subsystem for Android"></p><p>安装包比较大，需要等待一会儿。</p><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><p>安装完成后，打开 Windows Subsystem for Android，开启开发者模式。</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/11/202111012237069.png" alt="开启开发者模式"></p><p>然后点击「<strong>管理开发人员设置</strong>」，打开 Android 开发者选项页面开启「<strong>无线调试</strong>」，点击 IP 地址刷新获取 IP 地址。</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/11/202111012243396.png" alt="开启无线调试"></p><h3 id="安装应用"><a href="#安装应用" class="headerlink" title="安装应用"></a>安装应用</h3><p>由于已安装的 Amazon AppStore 需要美区帐号，而且可安装的应用较少，所以需要通过 adb 旁加载安装应用。</p><p>安装 adb，下载链接：<a href="https://dl.google.com/android/repository/platform-tools-latest-windows.zip">https://dl.google.com/android/repository/platform-tools-latest-windows.zip</a>，下载后解压。打开 <strong>Windows PowerShell</strong> 或<strong>命令提示符</strong>，然后 CD 到 adb 所在的文件夹（已解压），输入：</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">adb connect 127.0.0.1:58526</span><br></pre></td></tr></table></figure><p>连接成功如下图所示：</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/11/202111022124227.png" alt="adb 连接成功"></p><p>连接成功以后，接下来从应用商店下载 APK，我下载的是微信。首先 CD 到 APK 文件所在的文件夹，然后使用 adb install 命令安装应用，例如：</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">adb install 106_cf4bfe625373457f3f22e3c6cdecb77e.apk</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/11/202111022158028.png" alt="adb 安装应用"></p><p>安装完成后，应用在开始应用列表显示，也可以固定到任务栏。</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/11/202111022201177.jpg" alt="应用在应用列表和任务栏显示"></p><h3 id="使用应用"><a href="#使用应用" class="headerlink" title="使用应用"></a>使用应用</h3><p>运行比较稳定，没有出现闪退现象，应用截图：</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/11/202111022254477.png" alt="运行微信"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> windows </tag>
+            
+            <tag> 电脑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>无法开启 Windows 发送可选数据诊断</title>
+      <link href="/posts/bb724d7c/"/>
+      <url>/posts/bb724d7c/</url>
+      
+        <content type="html"><![CDATA[<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>加入 Windows 预览体验计划需要开启发送数据诊断，然而有时候发送可选数据诊断无法开启，导致无法加入 Windows 预览体验计划。</p><h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><p>组合键<code>Win+R</code>，输入 <strong>services.msc</strong>，打开服务找到 <em><strong>Connected User Experiences and Telemetry</strong></em>，启动类型选择 <strong>启动（延迟启动）</strong>，然后点击启动。</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/10/202110232251284.png" alt="Connected User Experiences and Telemetry"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> windows </tag>
+            
+            <tag> 电脑 </tag>
+            
+            <tag> 设置 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo点击文章变成了下载</title>
+      <link href="/posts/62f82767/"/>
+      <url>/posts/62f82767/</url>
+      
+        <content type="html"><![CDATA[<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>最近我在修改 Hexo 的时候遇到了一个问题，部署到 Github 后访问显示这样：<br><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/08/20210828214044.PNG" alt="文章下载"></p><h3 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h3><p>修改 Hexo 配置文件<code>_config.xml</code>中的<code>permalink</code>少了后面的斜杠，添加后保存，然后执行 hexo g 就解决问题了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>禁用XML-RPC服务</title>
+      <link href="/posts/27dbf04e/"/>
+      <url>/posts/27dbf04e/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>小站迁移到WordPress已经有几天时间了。最近查看Wordfence拦截日志时发现有人在不断访问xmlrpc.php，经过查找资料了解到有安全风险，可能会被暴力破解。</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/08/20210815221701.png" alt="Wordfence日志"></p><h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><h3 id="通过插件"><a href="#通过插件" class="headerlink" title="通过插件"></a>通过插件</h3><p>不想修改文件，一键禁用XML-RPC，可以随时开启和禁用。</p><h4 id="Disable-XML-RPC"><a href="#Disable-XML-RPC" class="headerlink" title="Disable XML-RPC"></a><a href="https://cn.wordpress.org/plugins/disable-xml-rpc/">Disable XML-RPC</a></h4><p>这个插件使用方法很简单，直接启用就可以了，XML-RPC在插件启用后被禁用。</p><h4 id="Wordfence"><a href="#Wordfence" class="headerlink" title="Wordfence"></a><a href="https://wordpress.org/plugins/wordfence/">Wordfence</a></h4><p>这个是我目前使用的插件，WordPress插件库安装量最多的安全插件。它非常强大，提供防火墙、恶意软件扫描、IP阻止、实时流量监控和登录安全等功能，禁用XML-RPC只是众多功能中的一个小功能。</p><p>设置步骤：</p><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/08/20210815225338.png" alt="设置步骤"></p><h3 id="修改文件"><a href="#修改文件" class="headerlink" title="修改文件"></a>修改文件</h3><h4 id="修改-htaccess文件"><a href="#修改-htaccess文件" class="headerlink" title="修改.htaccess文件"></a>修改.htaccess文件</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Block WordPress xmlrpc.php requests</span><br><span class="line">&lt;Files xmlrpc.php&gt;</span><br><span class="line">Order Deny,Allow</span><br><span class="line">Deny from all</span><br><span class="line">&lt;/Files&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> wordpress </tag>
+            
+            <tag> 安全 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>https访问出现混合内容</title>
+      <link href="/posts/9dc375a9/"/>
+      <url>/posts/9dc375a9/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>下午的时候看到了MySSL的提醒邮件，证书出现异常，也就是443端口连接异常。开始以为是服务器出现问题，因为服务器配置比较低，前几次重启服务器后恢复运行。</p><h2 id="排查"><a href="#排查" class="headerlink" title="排查"></a>排查</h2><p>打开浏览器访问，发现小站状态正常，没有出现之前出现404和502的情况。地址栏左侧图标是带有红线的锁形，想到提示证书出现异常，检查发现已经开启强制https，那就不是本身的问题。 调出Firefox的控制台发现报错，提示“<strong>已阻止载入混合活动内容</strong>”，根据路径判断是主题的问题。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/07/20210731210809.jpg#vwid=501&vhei=920" alt="Firefox控制台" title="Firefox控制台"> 按照文件路径在主题文件夹中查找，没有找到这个文件，只能咨询主题作者了。</p><h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><p>问题的原因是主题缺少文件，在后台用上一个版本的文件替换，恢复正常了。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/08/20210801231255.png#vwid=502&vhei=912" alt="恢复正常" title="恢复正常"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站 </category>
+          
+          <category> 笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 小站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>QQ转跳链接</title>
+      <link href="/posts/6e92d8f6/"/>
+      <url>/posts/6e92d8f6/</url>
+      
+        <content type="html"><![CDATA[<p>最近搭建了个人主页，需要在页面上添加社交链接，其中就有QQ链接。 我的个人主页：<a href="https://i.wenyi.cc/">https://i.wenyi.cc</a> 添加链接后，点击图标打开页面，提示打开QQ程序。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/07/20210724225458.png#vwid=545&vhei=179" alt="打开QQ程序" title="打开QQ程序"> 链接：</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://wpa.qq.com/msgrd?v=3&amp;uin=QQ号&amp;site=qq&amp;menu=yes</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 页面 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>更换小站logo和favicon</title>
+      <link href="/posts/f9fcc7eb/"/>
+      <url>/posts/f9fcc7eb/</url>
+      
+        <content type="html"><![CDATA[<p>前几天给小站更换logo和favicon，以前的logo和favicon是用同一张图片制作的。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/07/20210718182411.jpg" alt="旧版logo和favicon" title="旧版logo和favicon"> 旧版logo在首页很小，看不清，而且没有适配夜间模式。新版logo在此基础上只保留文字部分，然后把上半部分删去，又添加了在夜间模式显示的logo。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/07/20210718184324.jpg" alt="日间模式logo" title="日间模式logo"> <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/07/20210718184452.png" alt="夜间模式logo" title="夜间模式logo"> 旧版favicon由于直接使用图片，在浏览器标签页上只看到了红色的方框，凸显不出站点的个性。所以新版favicon变得更精简，去除文字部分，这样就能看清楚了。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/07/20210718210245.png" alt="favicon" title="favicon"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站 </category>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 小站 </tag>
+            
+            <tag> favicon </tag>
+            
+            <tag> logo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>域名从阿里云转入到腾讯云</title>
+      <link href="/posts/807b1755/"/>
+      <url>/posts/807b1755/</url>
+      
+        <content type="html"><![CDATA[<p>小站的域名以前在阿里云，现在转入到腾讯云了。之前给域名续费时，发现腾讯云域名价格比阿里云便宜一点，转入需要48元，而且小站的服务器是腾讯云的，放在一起方便管理。</p><h2 id="转出阿里云"><a href="#转出阿里云" class="headerlink" title="转出阿里云"></a>转出阿里云</h2><p>首先登录阿里云域名控制台：<a href="https://dc.console.aliyun.com/">https://dc.console.aliyun.com</a>。接下来点击需要转出的域名右侧的「管理」，在左侧栏菜单栏找到「域名转出」，获取并填写邮箱验证码，然后域名持有者的邮箱就会收到阿里云发送的域名转出密码。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/07/20210712224704.PNG#vwid=1100&vhei=895" alt="域名转出密码" title="域名转出密码"></p><h2 id="转入腾讯云"><a href="#转入腾讯云" class="headerlink" title="转入腾讯云"></a>转入腾讯云</h2><p>打开腾讯云控制台的域名管理：<a href="https://console.cloud.tencent.com/domain/trans-in">https://console.cloud.tencent.com/domain/trans-in</a>。如果以前创建过信息模板，直接使用就可以了。没有的话，点击「域名信息模板」，按照要求新建一个模板提交审核，一般一个工作日内通过。 在「域名转入」页面，按照提示填写域名和转移码，选择已经实名的信息模板，然后点提交就可以了。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg@main/2021/07/20210713225700.jpg#vwid=1786&vhei=866" alt="域名转入" title="域名转入"></p><h2 id="等待域名转移"><a href="#等待域名转移" class="headerlink" title="等待域名转移"></a>等待域名转移</h2><p>过了一会儿就收到了阿里云发送的转出通知邮件，提示如果希望取消转出，需要在 2021年7月3日22:44:08 前取消转出，到时未取消转出，转移将继续。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg@main/2021/07/20210713230105.png#vwid=907&vhei=845" alt="域名转出通知" title="域名转出通知"></p><h2 id="域名转移成功"><a href="#域名转移成功" class="headerlink" title="域名转移成功"></a>域名转移成功</h2><p>收到腾讯云发来的提醒，2021年7月4日12:25:31 域名转入成功，然后就可以在腾讯云管理域名了。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/07/20210714132057.jpg#vwid=1155&vhei=944" alt="转入成功" title="转入成功"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站 </category>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 域名 </tag>
+            
+            <tag> 小站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>升级到Windows 11</title>
+      <link href="/posts/7b0385cc/"/>
+      <url>/posts/7b0385cc/</url>
+      
+        <content type="html"><![CDATA[<p>今天发现有些网友已经升级到Windows 11了，看起来很好看，我也要尝尝鲜。 [admonition title&#x3D;”注意” color&#x3D;”red”]当前属于测试版本，将会存在一些不足之处和低稳定性。升级前需要备份数据，以防数据丢失。[&#x2F;admonition]</p><h2 id="升级过程"><a href="#升级过程" class="headerlink" title="升级过程"></a>升级过程</h2><h3 id="加入Windows-预览体验计划"><a href="#加入Windows-预览体验计划" class="headerlink" title="加入Windows 预览体验计划"></a>加入Windows 预览体验计划</h3><p><strong>注册Windows lnsider</strong>： [admonition title&#x3D;”<strong>注册Windows lnsider：</strong>“ color&#x3D;”green”]<a href="https://insider.windows.com/zh-cn/">https://insider.windows.com/zh-cn/</a>[&#x2F;admonition]</p><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>1.打开<strong>设置</strong>——<strong>更新和安全</strong>——<strong>Windows 预览体验计划</strong>，然后点击「开始」。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/06/20210630214554.jpg#vwid=1920&vhei=1036" alt="开始" title="开始"> 2.点击「链接帐户」，登录微软帐户后点击「继续」，然后选择<strong>Dev渠道</strong>。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/06/20210630221810.jpg#vwid=1920&vhei=1040" alt="选择Dev渠道" title="选择Dev渠道"> 3.选择「立即重启」，等待重启。 4.打开<strong>设置</strong>——<strong>更新和安全</strong>——<strong>Windows 更新</strong>，点击「检查更新」，然后耐心等待Windows 11 预览版的下载和安装。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/06/20210630222056.jpg#vwid=1920&vhei=1040" alt="等待下载和安装" title="等待下载和安装"></p><h3 id="成功"><a href="#成功" class="headerlink" title="成功"></a>成功</h3><p>如果一切顺利，电脑重启后就成功升级到Windows 11 了。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/06/20210630224142.PNG#vwid=1920&vhei=1080" alt="Windows 11" title="Windows 11"></p><h2 id="升级问题"><a href="#升级问题" class="headerlink" title="升级问题"></a>升级问题</h2><p>下面所列的问题是我遇到的问题，仅供参考。</p><h3 id="问题一"><a href="#问题一" class="headerlink" title="问题一"></a>问题一</h3><p><strong>问题：</strong> 打开Windows 预览体验计划可能会出现空白页面的情况，如下图： <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/07/20210701131538.png#vwid=1718&vhei=909" alt="Windows 预览体验计划空白" title="Windows 预览体验计划空白"> <strong>解决：</strong> 在<strong>设置</strong>——<strong>隐私</strong>——<strong>诊断和反馈</strong>——<strong>诊断数据</strong>中选择「可选诊断数据」。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/07/20210701132433.png#vwid=1718&vhei=909" alt="选择可选诊断数据" title="选择可选诊断数据"></p><h3 id="问题二"><a href="#问题二" class="headerlink" title="问题二"></a>问题二</h3><p><strong>问题：</strong> 在安装Windows 11 的过程中可能弹出“你需要关注的事项”的提示，如图： <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/07/20210701133755.png#vwid=706&vhei=561" alt="你需要关注的事项" title="你需要关注的事项"> <strong>解决：</strong> [admonition title&#x3D;”摘自官网的内容：” color&#x3D;”blue”] 在尝试更新到最新版本的 Windows 10 时可能会看到“你需要关注的事项”消息，并且你的电脑会通知驱动程序、硬件、应用、功能或隐私设置的兼容性问题。 这些问题可能会导致意外的体验，因此不会在此时提供更新。 系统主观已经确认了您当前会有兼容性问题，所以主动停止了更新，建议您当前继续使用目前的系统。[&#x2F;admonition]   出现这个问题的原因：可能是电脑安装<strong>Virtualbox</strong>虚拟机软件或者<strong>安卓模拟器</strong>软件，卸载后有残留文件。 如果以前安装过雷电模拟器，卸载后还有残留文件，删除<code>C:\Program Files\dnplayerext2</code> 和<code>C:\Program Files\ldplayerbox</code>，或者在「此电脑」中搜索“Virtualbox”，搜索完成后将搜索结果中的“Virtualbox.exe”删除。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/07/20210701142406.jpg#vwid=1920&vhei=1040" alt="dnplayerext2" title="dnplayerext2"> <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/07/20210701143905.png#vwid=1125&vhei=593" alt="搜索Virtualbox" title="搜索Virtualbox"></p><h3 id="问题三"><a href="#问题三" class="headerlink" title="问题三"></a>问题三</h3><p><strong>问题：</strong> 升级完成后，开机电脑屏幕只显示鼠标指针。 <strong>解决：</strong> <strong>方法一</strong>（我的电脑解决该问题的方法） 组合键<code>Ctrl+Alt+Del</code>，选择「注销」，然后就可以进入系统桌面了。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/07/20210701151252.jpg#vwid=3120&vhei=4160" alt="注销" title="注销"> <strong>方法二</strong>（网上解决相关问题回答较多的方法） 组合键<code>Ctrl+Alt+Del</code>，点击进入<strong>任务管理器</strong>——<strong>文件</strong>——<strong>运行新任务</strong>，输入explorer 后按<code>Enter</code>键桌面就出现了。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/07/20210701151832.PNG#vwid=666&vhei=593" alt="运行新任务" title="运行新任务"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> windows </tag>
+            
+            <tag> 电脑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>检查电脑能否升级到Windows 11</title>
+      <link href="/posts/495e9a7b/"/>
+      <url>/posts/495e9a7b/</url>
+      
+        <content type="html"><![CDATA[<p>今天看到网上消息说Windows 11就要来了，很期待我的电脑能升级到新系统。 官网介绍： <a href="https://www.microsoft.com/zh-cn/windows/windows-11">https://www.microsoft.com/zh-cn/windows/windows-11</a> 官网上有<strong>最低系统要求</strong>，可以查看自己的电脑是否符合配置要求。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/06/20210626204755.jpg#vwid=1618&vhei=336" alt="最低系统要求" title="最低系统要求"> 除此之外微软发布了名为 <strong>PC Health Check</strong> 的工具可以用来检查你的 PC 是否可以运行 Windows 11，下载地址： <a href="https://aka.ms/GetPCHealthCheckApp">https://aka.ms/GetPCHealthCheckApp</a></p><hr><p>我的电脑可以运行Windows 11，不过现在还不可以升级，需要等到发布后才可以升级。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/06/20210626204842.jpg#vwid=1228&vhei=929" alt="满足系统要求" title="满足系统要求"> <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/06/20210626204900.jpg#vwid=1801&vhei=543" alt="需要等待一段时间" title="需要等待一段时间"> [admonition title&#x3D;”如果出现<strong>满足最低系统要求</strong>，但检查工具仍然提示「这台电脑无法运行 Windows 11」的问题” color&#x3D;”orange”] 问题原因：电脑可能没有默认开启<strong>TPM2.0</strong> 解决办法：进入BIOS查看<strong>TPM2.0</strong>是否开启，不同品牌电脑进入BIOS方式不一样，具体方法自行搜索[&#x2F;admonition]</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+            <tag> windows </tag>
+            
+            <tag> 电脑 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>阿里云盘桌面端体验</title>
+      <link href="/posts/e6f321d3/"/>
+      <url>/posts/e6f321d3/</url>
+      
+        <content type="html"><![CDATA[<p>今天发现阿里云盘桌面端上线了。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/06/20210626203626.jpg#vwid=1900&vhei=910" alt="阿里云盘官网" title="阿里云盘官网"></p><h3 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h3><p>体验之后感觉功能比较简单，和网页版差不多，目前分享功能暂时不能使用。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/06/20210626203849.jpg#vwid=1920&vhei=1040" alt="阿里云盘桌面端" title="阿里云盘桌面端"> 支持拖拽上传和断点续传 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/06/20210626203954.png#vwid=1080&vhei=790" alt="拖拽上传" title="拖拽上传"> <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/06/20210626204047.png#vwid=1080&vhei=790" alt="断点续传" title="断点续传"> 可以在设置中打开深色模式，夜间使用时护眼，还有传输时电脑不休眠，实现不中断传输。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/blogimg/2021/06/20210626204129.jpg#vwid=1920&vhei=1040" alt="设置" title="设置"> 其他功能我还没有体验，抽空再体验一下。</p><h3 id="福利码"><a href="#福利码" class="headerlink" title="福利码"></a>福利码</h3><p>[admonition title&#x3D;”兑换福利码：” color&#x3D;”green”]在App点击头像 - 进入福利社 - 兑换福利码 - 输入<strong>桌面端上线了</strong>，即可领取 200GB 容量。[&#x2F;admonition]</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网盘 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Windows10开启自动登录</title>
+      <link href="/posts/347a4273/"/>
+      <url>/posts/347a4273/</url>
+      
+        <content type="html"><![CDATA[<p>Windows10登录默认需要输入密码，有时候觉得麻烦，想要自动登录。</p><h2 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h2><h3 id="使用高级用户账户控制面板"><a href="#使用高级用户账户控制面板" class="headerlink" title="使用高级用户账户控制面板"></a>使用高级用户账户控制面板</h3><p>1.组合键<strong>Windows+R</strong>打开运行，输入<code>control userpasswords2</code>或<code>netplwiz</code>执行； 2.在弹出的<strong>用户帐户</strong>窗口中取消勾选「要使用本计算机，用户必需输入用户名和密码」，然后应用；<br><img src="https://cdn.jsdelivr.net/gh/iwenyi/tuchuang/%E9%AB%98%E7%BA%A7%E7%94%A8%E6%88%B7%E8%B4%A6%E6%88%B7%E6%8E%A7%E5%88%B6%E9%9D%A2%E6%9D%BF.jpg#vwid=465&vhei=582" alt="用户账户控制面板" title="用户账户控制面板"></p><ol start="3"><li>输入用户名和密码确定后就可以使用自动登录了。<br><img src="https://cdn.jsdelivr.net/gh/iwenyi/tuchuang/%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95.png#vwid=595&vhei=682" alt="自动登录" title="自动登录"></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> windows </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>小站完善计划</title>
+      <link href="/posts/76f17a78/"/>
+      <url>/posts/76f17a78/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="d4c96fe57f64e57924bc781b852ee89913729d1e49f063a8191e452bab97cf96">0179730519805c12a171045dd696b311265c80c8d8409797af266612307fd9c95628f470d1856d715dd8248a95a6c7d3c300c8dcecddd615a7b095f1972db8f97c2c8f603b46846c0b01e48e9f4fab17104edc86ecd4797deb3accea018a7ab24d1d24bdf60664eafc6541bf24182d02cae7055938a9fa7fe4fd98765faefd7cbbc82c6af2fb95940c6b4e5d77eaf5e108a901bef84c5a19ee147d8cfe9cd3a6e22a6352736760febf0ce998c80d8c647e9a4406ed0bdc6706f95a663e3ec4345e36f79d38a3abfcd3828df15ea770eaf1f68b5742f0119265a516146b4ab21eacc10a3baadeac7b5ab6ed2c2d19da63f2627a4cc6ab9c5c4c26f1f81f33fbae728567197538b0222270ab7f35552fcc302409eff17e320e161c47b3a33fc8c66333d4b2ad775f35af9b7a9588a7fdef8a4f775708d76691ac205a6a23125783aa1d7fd768a0f69db23799e527a157cec69492ac03b6be1d9dc5aa6dc8c024d0bb3b9b04738eefbe9282556e13bf33edb0db26fd8039d20ce6a9948ed273bde855bcd74089eb6c94609a29375a270b88dbb489c15f96d2ddc0618e0859bbc866f25ae70730d164d80a230cfe4d0a38d9b8f101f79b41ab4036606e8014dc3a793e16f732ee870241a8326c066a881704b90c6921d5c9093cbbe7bb67a1a45da29c7501f9577e5b73f825ddddcedf6b5c925c62b8fadf09b76e41d7db739f563613130cf8725e8a0bce00f243929671c6b6eba90e4ee12534c1c99d239921ba5b9ceac6fcfdd9edfd276865c89d56340517272bd2c4d8459d2055ace3268a6377efcdfa0a5cd47a921428634208bd6b8058aba8cbfee131572b0be93040a625a0333e963ec888f68ef9c2fcf20d164d800dc7635ec685915929039ba3df515391ea010052438748751149ddc78aa526d4eb5f17260c72fb3e64eb8fe44b139fc6d8f70c98050fc3224532db8205e3e543092826e809e22db126dd942c30c72aac2a6ca3f7172304231dab527d5a70c0c37ee0cc9f9e4e22c4edc8d8e730772f8bc48a0359b1bc69b73308165420617cec312ff1b2b42181cd60853d5156e9f22c491c0b23948d8b0acaf127ed52ee3101b8f2010d05f5a25847fc4e30354eddc5ce764007829528f262af363ef1e1b35b6aeea0983ed0b2b0c6b6d0540981ddc2fb1422f0ba523aeeb85791e939798a1eddf03da697901ddc8bc6180f84625f46e95d22ab99602893df129ddcd42a7821f640269612cb204d21e1eb2ff167877fcee0935aff83ee8a627d3b89c2605beb90104a244bb98d568375162c89624d438c637fbcb38e27696eb2f86da9cd09e20ee85dbe596420f2679ef16f6716897f9b89e7d0436613d00fcaa7071ba746b8b7dc591e90b8824bade3b57da4f579b14039655d81a2109d7abed00b39a3e9c2f427488bc6a58ef3819dcbdd770ec64ed4ed35a482fc3050a62f80c10297d6496c78846968550a855a58c187937699dda296a31bfef060d7ff801488ee76862ad3eeea224af1a0987d0430a46e8745da7fea47b4cc5dacdb59e78ef8313e376a5c78dfcd2d8bfb039cc22eaf1071dc98bb030b85026a70d4774d9e629f403d3b20bfd52e05e73db2a54df246d11569835dc3dc9351ec18104a0bfa5c76bdceb830030f0ed748a29c3d0d039f51731bec882173c59cb7dcc550b6105dd77dd90c29f63aabeda5876af2efed6216b4893af54fddf46822814ecdbd2da07392be6902c5a17e1b4f19003df8488bf0facac6d3c9c0df0c16bc60df0a06cba5a6be3d0f1a05678d6c981f4a3d9173dcc82bdfde83e769369d5f040f0d652ef5d420297aa8c345117111ea5690b9aeb7298f07c9afd781c849e0efcda55f24e5e9ed173cc02601ce3d7e1388da378f8abb6ed215c7db1037c73d94545e86fad56d50c0f700e47feda8fcca1c1e75e0104814abdfd0009f8a224d3eea0aaee10bfe48ce8aaac62943393e717b2478d763ca03a4a79bc0f0a8980eb00712e81feb9d9aa32cb37d76fe6295089d77f6dc8be166a36f61d80b6a3f2dfedd89b1a5e8285f7ce43f73215aaf94ebce783ebe79fe38d7b55a46f757de0b6c63136cf0897cee1fffe4706494752c7245262825e068e7b2f59138776ca37ae719a4f3431dd0850565c2ba4696212a931e257d8a06a5d4e86b174534a60fb6ebd46266fdb0603c7bd6d63161294a7afd4160d0d1ddae68571598ad1bc7725c85f83d9727d8f1dd15f0c8e24740a1379d4530fcac390f706125be78b93a3f9262695c2416f234d2c7cd27e65e44113119f4223119f0eee8e0b1147dcc2ba8d263e774e0103db91b769026baf317a893fda30fa91229c3b4fec4b786087a66fc37500ebef6537c858d281da4fec95a04c61659e7de0502b16e5ac2dedf2e28e1fd048b54ee2633e6ce3fe479cb0b6b3c9d8eda1650481b67a97bd55915ca69d4619d67965620f196f3e6d894dfb27a8f12c233f88d87c517f4de1bf19ef85f46fb03fa8116ca9283a30ce7ea47f8edf5db8f9825fa19a4ef83c8d221fa46bc383a1a425b3bc226aae3cef767dcff58ce96973569744439003a04c484923ee056aac037ac4582c6bca991ec1d39f51d021e6365916f74962b2e31ca5a9055adf2169635f104728e4d220dd18bd985c290c080a09c2bef8ae163b3dc95d5d1483c2a3bdfaaa776341968b813a0cc19acfaab3e48ca79809aad7dbfa812adf73dd5f5a098abbb8ed01d681e16280945dadd98a642569bad5c548d8ba082566675797d3d7d7fef49fe5ed4a028e9c8376d13e3452414dc2b2d739931e6e14ff25517c8ec6f5d6ae59c6005b1f66a449ac9b4c194b563ce1bc3cd503742481e1ff2800c0c2c05f90b88ec6b81d0440c0ae91fe4dadaaeb2b7cf56f493ec10dd3c770f267a8de8f1affa43cfe9b488dba2b40fc8c5e6206e252242903d4aa719b26ccef964eec45f359d047f1ae37a1c5b79758078e5294870590292529b87553938cbeda4aab2d034a7dac81359827a2067ab5dcb0c79f5dfce329413637cadaf22b6044f772c8e9128dd288b257d5cdbd9741df28a8434d7a3de93635d03bdc14958317940eb8dffa64f72fc0fdbf8839759d4619b52191b20846eeb3f4bbf4313bf930acffd95e184375a84a15a314d0f5b5f7547fed3ebd5bba93f3d5f5e26e31e43c012e97bef79b3ac7fff6d0e3be2cf1e2b430225e8d30d01a1546c8affb99e38771ff6406a8a233444608ef0d6a3aabf81ecb573ed063199900b83649da6ab89594830fef2aded9b46a9aaf609f504dbe46d3140649ef4e659e0ae148cd0c3112e255a212b374f8501694a69ec1dc83f73eb80b7deabd14f88eac78c51c629574056c273c8e31293ef82af299ee562f7fc3d28fe94a2ed03aa08554a96f9e570cf7e0b8f9ee04f78e408643cfcf1fe36ee809f0a0a8a30ddb088bb98f336e32905aeee25919c055a4c417570ccdb622405c86e4e1e37a754623479558718f57eb32ef0c1669075d7611cee440e926ce2ec3c2cd5c7d885a2e03d9d9288aa81eca519402f319ec7067767527b31bbc7b8bd4d6e68247a7a52d7c73741749f95c3e904811fdb50af2d0767aaa8fce503a670874a675a40d456709294582ba578d9252982284113fe78c51b3fd82ab8238db5f4bd016afa863cce7a8be32dbec353166ffdc4ff212a67b0cd0ac3ad946fb18bd77488e4bafb419a7fb8aeec23e87e44fdff5390e491b3cd92f6805ba8955b662fa3024187e7b0f8ff378334ade4449c52dc82abebd43d606b4d3e7d138d229194dd5de8978c6658ce27ea3416b476a53428c14827a020f63e2c11f4bd658ab408b87373ca586e152339e4f94b6637d4412b1a95053242209d9ee8733188b4d6f45a8d4a604d996874b2a25de681f3947ca57cffb3debc4fc7dfae7bc15dc6d8aa9c57a558dc1c6c9f9326f23e35877e6f646c6a996e3cab6f9eaf587d530127a0e1177671b02d0566760db747d1dbba3cbbfcc3609561016071571a9d73697edc866ae9019b647eec1a7f2ec55342e0e18d389c8ff06ce68972941886de1e2c2e119e04422ebd75ced187c160ea13f9fcc60c9f825266b07f2fe4c61e7d36073dd4fdf346d89f9de42c52437ac09f825e74f4acd6172ca0f52b908600c9bbbdf594f502926d725d363b7a0734bd2f20291df8e4f1383e552775a50793a396e8d0cf644ddc273faffdcbef7f0cde52f02577413cf1b95aacf6996e810ccd2774770fa1961881e4fc3159e6a5621c79cf6f6ef0b9d35cf84ab8f201b423a9630d86327bb45763fd862ccf7736c785e0fbe4fd5eac4dbe1d2c4ce487fc630a6c040584674ea2a8777ba504930142875e04ae1ef3c8c64133e0b6ea2aac1bb30e75ce018c4b679e1f3f446b3d8b51fde78c54f57f6649c86baefe62066ede0e9d4b50a8960f48dd925036b04dc3ec01e46c6788a7a6389784082c781683845f29c01f8f3fe750b4f03097467cb9a74ec0d5a38a28092177b2babf961f2f622940a0968120452c0a91a97320740e459450fd689d2e74ca7af60c036fc9aede49ee85b3269f97856952c2f5649271ec3d444e2ff44da513208fa238fc82f2fa339ccc25cf73a9bc890af2ac791ebfe5aca842b238273425b34be11fa885a3bc2daf4f817ede14dd82e0ef149d1f4c122e1884106f163ef2afb9</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 日记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 文章 </tag>
+            
+            <tag> 页面 </tag>
+            
+            <tag> utf8mb4 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>jsDelivr加速Github资源</title>
+      <link href="/posts/345485/"/>
+      <url>/posts/345485/</url>
+      
+        <content type="html"><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>[admonition]CDN的全称是Content Delivery Network，即<a href="https://baike.baidu.com/item/%E5%86%85%E5%AE%B9%E5%88%86%E5%8F%91%E7%BD%91%E7%BB%9C/4034265">内容分发网络</a>。CDN是构建在现有网络基础之上的智能虚拟网络，依靠部署在各地的边缘服务器，通过中心平台的负载均衡、内容分发、调度等功能模块，使用户就近获取所需内容，降低网络拥塞，提高用户访问响应速度和命中率。CDN的关键技术主要有内容存储和分发技术。<a href="https://baike.baidu.com/item/CDN">（百度百科）</a>[&#x2F;admonition] [admonition]因为某些原因，Github在国内访问不稳定，下载仓库资源非常缓慢，可以用CDN解决这个问题。[&#x2F;admonition] jsDelivr是免费的CDN，而且最重要的是在中国大陆唯一有许可证的公共CDN，速度非常快。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/tuchuang/jsDelivr%E5%AE%98%E7%BD%91.jpg#vwid=1142&vhei=328" alt="jsDelivr官网" title="jsDelivr官网"></p><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p><strong>引用jsDelivr:</strong></p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://cdn.jsdelivr.net/gh/user/repo@version/file</span><br></pre></td></tr></table></figure><p>详细规则访问官网： <a href="https://www.jsdelivr.com/">https://www.jsdelivr.com</a></p><h3 id="图床"><a href="#图床" class="headerlink" title="图床"></a>图床</h3><p>例如：<code>https://cdn.jsdelivr.net/gh/iwenyi/tuchuang/UptimeRobot%E9%A1%B5%E9%9D%A2404%E5%A4%B4%E5%9B%BE.png#vwid=1394&amp;vhei=751</code> 效果： <img src="https://cdn.jsdelivr.net/gh/iwenyi/tuchuang/UptimeRobot%E9%A1%B5%E9%9D%A2404%E5%A4%B4%E5%9B%BE.png#vwid=1394&vhei=751" alt="头图404" title="头图404"> 这样可以使用Github+jsDelivr搭建图床，我之前写过：<a href="https://ejhu.com/archives/16/">https://ejhu.com/archives/16/</a></p><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p>例如：<code>https://cdn.jsdelivr.net/gh/iwenyi/bing/bing.php</code> 效果： <img src="https://cdn.jsdelivr.net/gh/iwenyi/tuchuang/jsDelivr%E4%B8%8B%E8%BD%BD%E8%B5%84%E6%BA%90.jpg#vwid=578&vhei=379" alt="jsDelivr下载资源" title="jsDelivr下载资源"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 仓库 </tag>
+            
+            <tag> cdn </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>评论/时光机的时间格式</title>
+      <link href="/posts/eff1e6ec/"/>
+      <url>/posts/eff1e6ec/</url>
+      
+        <content type="html"><![CDATA[<p>最近修改了小站评论日期格式，记录一下。</p><ul><li>Typecho默认的日期格式是<code>F jS, Y \a\t h:i</code>，实际显示<code>June 2nd, 2021 at 04:06 pm</code> 。</li><li>填写<code>natural</code>，实际显示：</li></ul><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">几小时前</span><br><span class="line">几天前</span><br><span class="line">几月前</span><br><span class="line">几年前</span><br></pre></td></tr></table></figure><ul><li>标准的PHP格式，如标准时间格式：<code>Y-n-j H:i:s</code>，实际显示：<code>2021-5-30 23:15:52</code>。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 格式 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>性格主导色测试</title>
+      <link href="/posts/f4ee8c3/"/>
+      <url>/posts/f4ee8c3/</url>
+      
+        <content type="html"><![CDATA[<p>最近网易云性格主导色测试很火，我也跟风测一下玩玩。 除了在APP中搜「<strong>颜色</strong>」，下面的链接也可以打开测试页面。 <a href="https://st.music.163.com/st-color-quiz/069">https://st.music.163.com/st-color-quiz/069</a> 这个测试我测了九次，六次是蓝粉，三次是粉。（图片下面是对应的推荐曲） <img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/%E4%B8%BB%E5%AF%BC%E8%89%B2%E8%93%9D%E7%B2%89.jpg#vwid=1125&vhei=3105" alt="主导色蓝粉" title="主导色蓝粉">  <img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/%E4%B8%BB%E5%AF%BC%E8%89%B2%E7%B2%89.jpg#vwid=1125&vhei=3105" alt="主导色粉" title="主导色粉">  我的结果还是比较稳定的，看到有些网友同样的选项改了名字结果就变了，也有因为答题速度不同在两色之间徘徊。<strong>不管你是哪种颜色，你得到的描述都是正面的</strong>。这东西只是玩玩而已，类似于星座那样，不必当真。 下面是各种颜色推荐曲歌单： <a href="https://music.163.com/playlist?id=6774423112&userid=1947413300">https://music.163.com/playlist?id=6774423112&userid=1947413300</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 页面 </tag>
+            
+            <tag> 歌曲 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>网站状态页失效</title>
+      <link href="/posts/50b9e6e9/"/>
+      <url>/posts/50b9e6e9/</url>
+      
+        <content type="html"><![CDATA[<p>最近没时间看小站，今天登录发现小站的监控页面出错了，到底是发生了什么让监控页面出错了呢？ <img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/UptimeRobot%E9%A1%B5%E9%9D%A2404.png#vwid=1536&vhei=1884" alt="UptimeRobot页面404" title="UptimeRobot页面404"> 后来在收件箱发现了一封来自UptimeRobot的未读邮件，<strong>状态页面自定义域名需要升级到收费版本</strong>。 [admonition]The main reason is the huge load on our systems and the issuance and renewal of SSL certificates hitting several 3rd party service rate limits while slowing down the process of activating new Status pages significantly. We still want to offer a lot of useful free services to our community and users, but we need to focus on quality and reliability too.[&#x2F;admonition] 如果不升级到PRO，<strong>免费计划中状态页面链接的自定义域的支持将于2021年5月5日停止服务，只能使用默认链接（例如stats.uptimerobot.com&#x2F;xxx），之前链接的域将指向“404错误”页面</strong>。 [admonition title&#x3D;”What does it mean for you?” color&#x3D;”orange”] After May 5th, 2021 linked domains will point to the “error 404” page. No worries though. Here’s what you can do:</p><ul><li>Switch to use free status page under UptimeRobot’s domain(e.g. stats.uptimerobot.com&#x2F;statusPageID)- don’t forget to change the links on your website.</li><li>Continue using the linked domain by upgrading to a PRO plan. With the PRO plan you will also get Status page customizations, unlimited number of Status pages, 1-minute monitor intervals, SSL monitoring &amp; alerting and much more.[&#x2F;admonition]</li></ul><p>  <strong>相关文章:</strong><a href="https://ejhu.com/archives/23">https://ejhu.com/archives/23</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 域名 </tag>
+            
+            <tag> 页面 </tag>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《Positive Outlook》</title>
+      <link href="/posts/d9242619/"/>
+      <url>/posts/d9242619/</url>
+      
+        <content type="html"><![CDATA[<p>今天观看火箭发射直播时，听到了非常熟悉的背景曲。这首曲子非常好听，听了使人有一种振奋人心的感觉，但是不知道它的名字。后来查了一下，这首曲子名叫<strong>《Positive Outlook》</strong>。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 歌曲 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>天气信息API错误</title>
+      <link href="/posts/45fe5939/"/>
+      <url>/posts/45fe5939/</url>
+      
+        <content type="html"><![CDATA[<h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>前几天发现小站左边栏的天气信息错误，开始以为插件出问题了，后来看了其他使用这个插件的网站没有问题。既然不是插件的原因，那就看看是不是API的问题。</p><h2 id="研究"><a href="#研究" class="headerlink" title="研究"></a>研究</h2><p>看了看插件作者的介绍文章后发现是因为使用作者提供的API,出错的原因是API到达调用上限。那就好办了，直接自己申请一个API就可以了。 [admonition] 这里给小伙伴们提供一个我个人的天气信息共享的API，好处就是可以直接使用，弊端就是可能会出现调用上限，因为是共享的，而这个API每天最多只能调用30W次 有兴趣的小伙伴可以到 高德官网 申请一个API [&#x2F;admonition]</p><h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><h3 id="申请API"><a href="#申请API" class="headerlink" title="申请API"></a>申请API</h3><p>1.首先访问<a href="https://lbs.amap.com/">高德开放平台</a>，然后打开<strong>控制台</strong>; <img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/%E9%AB%98%E5%BE%B7%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0%E9%A6%96%E9%A1%B5.jpg#vwid=1896&vhei=638" alt="高德开放平台首页" title="高德开放平台首页"> 2.先点<strong>我的应用</strong>，再点右上角<strong>创建新应用</strong>，应用类型选<strong>天气</strong>； <img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/%E9%AB%98%E5%BE%B7%E5%88%9B%E5%BB%BA%E6%96%B0%E5%BA%94%E7%94%A81.jpg#vwid=1907&vhei=928" alt="高德创建新应用1" title="高德创建新应用1"> 3.服务平台选<strong>Web服务</strong>，IP白名单根据情况（如果不想让别人使用API需要填写）； <img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/%E9%AB%98%E5%BE%B7%E5%88%9B%E5%BB%BA%E6%96%B0%E5%BA%94%E7%94%A82.jpg#vwid=1897&vhei=927" alt="高德创建新应用2" title="高德创建新应用2"></p><h3 id="使用API"><a href="#使用API" class="headerlink" title="使用API"></a>使用API</h3><p>在插件天气信息中把默认的API修改成自己申请的就可以了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 文章 </tag>
+            
+            <tag> 插件 </tag>
+            
+            <tag> api </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>修改默认端口</title>
+      <link href="/posts/4a733b0d/"/>
+      <url>/posts/4a733b0d/</url>
+      
+        <content type="html"><![CDATA[<p>之前发现总有一些陌生的IP尝试连接主要端口，怀疑是暴力破解攻击，尤其是22端口。使用默认端口不安全，容易被攻破，需要修改默认端口。</p><h2 id="修改宝塔面板端口"><a href="#修改宝塔面板端口" class="headerlink" title="修改宝塔面板端口"></a>修改宝塔面板端口</h2><p>默认通过8888端口访问宝塔面板。在<strong>面板设置</strong>中修改端口范围8888-65535，提前在服务器控制台放行新端口。 [admonition]放行端口<a href="https://www.bt.cn/bbs/thread-40037-1-1.html">https://www.bt.cn/bbs/thread-40037-1-1.html</a>[&#x2F;admonition] <img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E4%BF%AE%E6%94%B9%E9%9D%A2%E6%9D%BF%E7%AB%AF%E5%8F%A3.jpg" alt="宝塔面板修改面板端口" title="宝塔面板修改面板端口"></p><h2 id="修改SSH端口"><a href="#修改SSH端口" class="headerlink" title="修改SSH端口"></a>修改SSH端口</h2><p>SSH默认端口是22端口，经常被暴力攻击，很不安全。在<strong>安全</strong>中修改SSH端口（注意：修改完成后记得在SSH连接工具修改连接端口），根据SSH安全管理中的风险提醒修改其他相关配置。<img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E4%BF%AE%E6%94%B9ssh%E7%AB%AF%E5%8F%A3.jpg" alt="宝塔面板修改ssh端口" title="宝塔面板修改ssh端口"></p><h2 id="修改phpmyadmin"><a href="#修改phpmyadmin" class="headerlink" title="修改phpmyadmin"></a>修改phpmyadmin</h2><p>phpmyadmin默认端口是888端口，在面板<strong>软件商店</strong>中找到_phpmyadmin_，然后点击右边的<strong>设置</strong>，然后选择<strong>安全设置</strong>。<img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E4%BF%AE%E6%94%B9phpmyadmin%E7%AB%AF%E5%8F%A3.jpg" alt="宝塔面板修改phpmyadmin端口" title="宝塔面板修改phpmyadmin端口"></p><h2 id="修改FTP端口"><a href="#修改FTP端口" class="headerlink" title="修改FTP端口"></a>修改FTP端口</h2><p>21端口是FTP的默认端口，如果不使用FTP就不用开启也不用修改。修改方法：<img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E4%BF%AE%E6%94%B9FTP%E7%AB%AF%E5%8F%A3.jpg" alt="宝塔面板修改FTP端口" title="宝塔面板修改FTP端口"></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>需要使用的服务建议修改默认端口，不使用的端口不要开启。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+            <tag> 修改 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>使用对象储存备份网站数据</title>
+      <link href="/posts/8579d113/"/>
+      <url>/posts/8579d113/</url>
+      
+        <content type="html"><![CDATA[<p>最近我给小站进行安全方面的设置，防止小站被攻破，数据被破坏。以前只是把数据每天备份到服务器本地磁盘，现在觉得不安全，应该在其他地方也要备份。</p><h2 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h2><p>在宝塔面板<strong>软件商店——宝塔插件</strong>中选择插件下载，我选的是<strong>腾讯云COS</strong>，需要在腾讯云开通对象储存（COS）服务才能使用。 腾讯云对象存储 COS：<a href="https://cloud.tencent.com/product/cos">https://cloud.tencent.com/product/cos</a></p><h2 id="开通服务"><a href="#开通服务" class="headerlink" title="开通服务"></a>开通服务</h2><p>[admonition]开通后，需要<strong>存储桶列表</strong>中创建存储桶。名称随便，所属地域根据情况选择，访问权限选择私有读写。[&#x2F;admonition] 如图： <img src="https://cdn.jsdelivr.net/gh/iwenyi/tuchuang/%E8%85%BE%E8%AE%AF%E4%BA%91%E5%AF%B9%E8%B1%A1%E5%82%A8%E5%AD%98%E5%88%9B%E5%BB%BA%E5%AD%98%E5%82%A8%E6%A1%B6.jpg#vwid=718&vhei=569" alt="腾讯云对象储存创建存储桶" title="腾讯云对象储存创建存储桶"></p><h2 id="插件配置"><a href="#插件配置" class="headerlink" title="插件配置"></a>插件配置</h2><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/tuchuang/%E5%AE%9D%E5%A1%94cos%E8%AE%BE%E7%BD%AE.jpg#vwid=764&vhei=483" alt="宝塔cos设置" title="宝塔cos设置"></p><ul><li>secret_id与secret_key填写密钥 创建密钥方法：<img src="https://cdn.jsdelivr.net/gh/iwenyi/tuchuang/%E8%85%BE%E8%AE%AF%E4%BA%91%E5%AF%86%E9%92%A5%E7%AE%A1%E7%90%86.jpg#vwid=1917&vhei=921" alt="腾讯云密钥管理" title="腾讯云密钥管理"><img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/%E8%85%BE%E8%AE%AF%E4%BA%91%E6%96%B0%E5%BB%BA%E5%AF%86%E9%92%A5.jpg#vwid=1697&vhei=870" alt="腾讯云新建密钥" title="腾讯云新建密钥"></li><li>region填所属地域</li><li>Bucket填存储桶名称</li><li>保存路径自定义</li></ul><h2 id="计划任务"><a href="#计划任务" class="headerlink" title="计划任务"></a>计划任务</h2><p>在添加任务时选择备份到<strong>腾讯云COS</strong>，数据文件就会备份到存储桶中。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/tuchuang/%E5%AE%9D%E5%A1%94%E4%BB%BB%E5%8A%A1%E8%AE%A1%E5%88%92%E5%A4%87%E4%BB%BD%E5%88%B0%E8%85%BE%E8%AE%AF%E4%BA%91cos.jpg#vwid=1679&vhei=644" alt="宝塔计划任务备份到腾讯云cos" title="宝塔计划任务备份到腾讯云cos"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+            <tag> 插件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Uptime Robot免费的网站状态监控工具</title>
+      <link href="/posts/72fc7a7c/"/>
+      <url>/posts/72fc7a7c/</url>
+      
+        <content type="html"><![CDATA[<p>前天我给小站添加了用<strong>Uptime Robot</strong>创建的网站状态页面。 本站状态页：<a href="https://stats.uptimerobot.com/n6oMYHGBK6">https://stats.uptimerobot.com/n6oMYHGBK6</a> <img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/EJHU%E7%8A%B6%E6%80%81%E9%A1%B5.jpg#vwid=1896&vhei=937" alt="EJHU状态页" title="EJHU状态页"> [admonition]Uptime Robot 免费版50个监控配额，可以创建一个状态页面，监视器<strong>支持HTTP(s)、关键词、Ping、端口</strong>等，监视器<strong>5分钟触发一次</strong>，警告可以通过邮件等多种方式通知。[&#x2F;admonition] Uptime Robot官网：<a href="https://uptimerobot.com/">https://uptimerobot.com</a> 打开页面后点击右上角的[<strong>Register for FREE</strong>]，填写上用户名、邮箱和密码就可以注册了。然后点击左上角的[<strong>Add New Monitor</strong>]创建新的监控项目，可以添加HTTP(s)、关键词、Ping、端口，根据需求自选。右边⌈<strong>Select”Alert Contacts To Notify”⌋</strong>是消息通知的联系人。 <img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/uptime%20robot%E6%B7%BB%E5%8A%A0%E7%9B%91%E8%A7%86%E5%99%A8.jpg#vwid=1141&vhei=464" alt="uptime robot添加监视器" title="uptime robot添加监视器"> 添加完监视器之后，可以点击[<strong>Status Pages</strong>]创建站点状态页，免费版支持创建一个状态页。可以设置页面的布局、配色、域名等。<img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/uptime%20robot%E7%8A%B6%E6%80%81%E9%A1%B5.jpg#vwid=1920&vhei=525" alt="uptime robot状态页" title="uptime robot状态页"> <strong>现在免费版不支持自定义域名，需要升级到PRO版本</strong>： <a href="https://ejhu.com/archives/33/">https://ejhu.com/archives/33/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 站点 </tag>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>小站内容计划</title>
+      <link href="/posts/2927b37a/"/>
+      <url>/posts/2927b37a/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="29fdde3986b3efe8c92123ea600cebcced5810e3c13a764279d2a11054ed52ef">0179730519805c12a171045dd696b3116328c972aa4b198a8f05944d714c36cf965ea7fc0db9a24019fad268b5dd446002f1a2e704dabb0f23731f939e777e70598d5a344eab3626bf2cfadf3dbce6bf8e172c180bddb2aceee9d033c54ce70b7006d83e8993e9a3eec19d72acc33e7123c12ce072e8b672242455c890b429823cf3158a28bfaa4a2b3defa8e93d07e45d9232604c78ab423be946a302dbe965531af79156867181b2893fc87a79058cb21bb66ac1d1d92cd7dbe8b6a27d326622cc814d796e1b798c5833ff1f2ad3c9629cab27d4a7d3ca350f5d3d8b1cacca34082b412e351e3744af311d504cf119a5c159e5dc3ed0b21a6b4fadeb3c80b057aca949628381ec8c55e92487bb2a750c3323723d9b03402df72485d11e552e43b48eb5cff6cb4f816d36f5d12e563b73df385501402be39638a0fab03336914aae0792401c04876a94450a8f77f2b6d32378ed4917f712b2789cbbea574b759423838ce9512cee7b8b5c01e361f8e2d00ef36661aec0795b0adfadbdc3ab6657516f569f49ffa46c83179abcbb227717d4a7e534a84260063f52e082f8854d79b1f1b1b4657749632ae8483b2f6f8baa1e97cbcdc141b0d2164ca6798a82c126f5493dbe49b21845d2812327757b9d8ed86d4156609152e83a331b6a25ed8075e323c9ca18cebd22724733400767e590571fb12856e02b7fa316e5083f553235a290b554a9481487003599e3a28600a5d3629216a4df93afa0546f21f945be57e4529fbe87ffd2e14071fcbe8854b62407743bec5fd0ab515b0c6f33509347b418aa459c29a1cd6af8594b8e22144a7c72485686fd0922f2a7aff75b80ca4ff45fbc3a6058f0a375e2aff11d460f10a256f2ad14b67c4ad4527df36bdd468768d49d2394d2d27bd6473598c6e3a0b053268794e2f9bc059a87d7adfb5bee23ae8831ba1c8475ccc90b432a03e6073de21bf1c0f2360e9eeb5b3e99dd3efebbbc84b5fd767ba3d18667969cb64fc45c2b29a3c4d41fcd7427f9fbe16d944486</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 日记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 文章 </tag>
+            
+            <tag> 页面 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Firefox翻译插件</title>
+      <link href="/posts/ee90a119/"/>
+      <url>/posts/ee90a119/</url>
+      
+        <content type="html"><![CDATA[<p>最近又换回Firefox了，现在Firefox为主，Edge为辅。大部分网页能通过Firefox打开，只有个别的网站需要Chromium内核或IE浏览器才能打开时换用Edge或IE。 现在有许多浏览器自带网页翻译功能，例如Chrome和Edge。还有一些国内的浏览器也有这项功能。但是也有一些因为其他原因没有这项功能的浏览器，例如Firefox和我之前用过的Vivaldi。 虽然这项功能平时用不上，但是遇到看不懂的地方就很方便。有内置翻译功能的浏览器可以直接使用，没有也可以安装插件（扩展），安装上以后效果一样。Chromium内核的浏览器直接从Chrome网上应用店挑选下载，我认为很好用的翻译插件是侧边翻译和沙拉查词，这两个插件可以划词翻译和整页翻译，非常棒！Firefox的附加组件商店里也有翻译扩展，但是好多扩展失效了。有的只能划词翻译，无法翻译整个页面，所以在网上搜关于Firefox翻译网页的相关问题，有好多人问这方面的问题。我看了一下网友推荐的扩展，目前能在Firefox上使用的具有划词翻译和整页翻译的扩展是“<strong>翻译网页</strong>”。链接：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/traduzir-paginas-web/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search">https://addons.mozilla.org/zh-CN/firefox/addon/traduzir-paginas-web/?utm_source&#x3D;addons.mozilla.org&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;search</a> <img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/Firefox%E6%89%A9%E5%B1%95%E2%80%9C%E7%BF%BB%E8%AF%91%E7%BD%91%E9%A1%B5%E2%80%9D.jpg#vwid=1328&vhei=916" alt="翻译网页" title="翻译网页"> “<strong>翻译网页</strong>”可以在Firefox附加组件商店上下载，下载完成后简单设置一下就可以使用了，开箱即用。另外侧边翻译火狐版也可以使用，只是稍微麻烦些：侧边翻译在Firefox附加组件商店里下载安装，但是[admonition]从商店下载的版本只能使用划词翻译的功能，无法使用页面翻译的功能，具体说明看这里：<a href="https://github.com/EdgeTranslate/EdgeTranslate/blob/master/docs/wiki/zh_CN/%E8%87%B4%E7%81%AB%E7%8B%90%E7%94%A8%E6%88%B7.md">https://github.com/EdgeTranslate/EdgeTranslate/blob/master/docs/wiki/zh_CN&#x2F;%E8%87%B4%E7%81%AB%E7%8B%90%E7%94%A8%E6%88%B7.md</a>_在商店中下载的版本无法使用翻译网页的功能，可以在扩展Github仓库中下载扩展文件后安装_。[&#x2F;admonition] 经过这一番操作，使Firefox也拥有翻译功能了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> firefox </tag>
+            
+            <tag> 扩展 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Gitalk评论出错</title>
+      <link href="/posts/e5f8ef2a/"/>
+      <url>/posts/e5f8ef2a/</url>
+      
+        <content type="html"><![CDATA[<p>我昨天发现了一个问题，就是更改了用户名后Gitalk评论出错，无法加载评论（<strong>Error: Request failed with status code 403</strong>）。 我认为问题出在了没有重新设置GitHub Application,使用的还是以前的用户名。后来发现没有这么简单，在网上搜索后看到了这一篇文章。 <a href="https://zhuanlan.zhihu.com/p/350735142">https://zhuanlan.zhihu.com/p/350735142</a> <strong>发现了问题：</strong> <strong>PSA: Public demo server (<a href="http://cors-anywhere.herokuapp.com/">http://cors-anywhere.herokuapp.com)</a>) will be very limited by January 2021, 31st</strong> <em>The demo server of CORS Anywhere (<a href="http://cors-anywhere.herokuapp.com/">http://cors-anywhere.herokuapp.com)</a>) is meant to be a demo of this project. But abuse has become so common that the platform where the demo is hosted (Heroku) has asked me to shut down the server, despite efforts to counter the abuse (rate limits in #45 and #164, and blocking other forms of requests). Downtime becomes increasingly frequent (e.g. recently #300, #299, #295, #294, #287) due to abuse and its popularity.</em> <em>To counter this, I will make the following changes:</em> <em>1.The rate limit will decrease from 200 (#164) per hour to 50 per hour.</em> <em>2.By January 31st, 2021, <a href="http://cors-anywhere.herokuapp.com/">http://cors-anywhere.herokuapp.com</a> will stop serving as an open proxy.</em> <em>3.From February 1st. 2021, <a href="http://cors-anywhere.herokuapp.com/">http://cors-anywhere.herokuapp.com</a> will only serve requests after the visitor has completed a challenge: The user (developer) must visit a page at <a href="http://cors-anywhere.herokuapp.com/">http://cors-anywhere.herokuapp.com</a> to temporarily unlock the demo for their browser. This allows developers to try out the functionality, to help with deciding on self-hosting or looking for alternatives.</em> 然后点击这个链接：<a href="https://cors-anywhere.herokuapp.com/corsdemo">https://cors-anywhere.herokuapp.com/corsdemo</a>操作就可以了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 文章 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>修改Github用户名</title>
+      <link href="/posts/5edffd99/"/>
+      <url>/posts/5edffd99/</url>
+      
+        <content type="html"><![CDATA[<p>最近想到之前Github用户名设置的有点长，不方便输入和分享，于是最近想要修改Github用户名。下面说一下Github用户名修改方法。</p><h2 id="关于用户名修改"><a href="#关于用户名修改" class="headerlink" title="关于用户名修改"></a>关于用户名修改</h2><p>[admonition title&#x3D;”引用Github Docs：” color&#x3D;”red”] 更改用户名后，您的旧用户名即可供其他人申请使用。 对旧用户名下仓库的大多数引用会自动更改为新用户名。 不过，指向您个人资料的某些链接不会自动重定向。 更改用户名后，指向以前的个人资料页面的链接（例如 <a href="https://github.com/previoususername">https://github.com/previoususername</a>）将返回 404 错误。 [&#x2F;admonition]</p><h2 id="更改用户名步骤"><a href="#更改用户名步骤" class="headerlink" title="更改用户名步骤"></a>更改用户名步骤</h2><p>1.点击右上角头像，选择<strong>Settings</strong>； <img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/20210208220534.jpg" alt="Settings" title="Settings"> 2.在左侧边栏中，点击<strong>Account</strong>； <img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/Github%E6%9B%B4%E6%94%B9%E7%94%A8%E6%88%B7%E5%90%8D%E7%AC%AC2%E6%AD%A5.jpg" alt="Account" title="Account"> 3.然后点击<strong>Change username</strong>； <img src="https://cdn.jsdelivr.net/gh/imwenyi/tuchuang/Github%E6%9B%B4%E6%94%B9%E7%94%A8%E6%88%B7%E5%90%8D%E7%AC%AC3%E6%AD%A5.jpg" alt="Change username" title="Change username"> 4.输入新的用户名，如果新的用户名可用，点击<strong>Change my username</strong>即可。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> github </tag>
+            
+            <tag> 仓库 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>建站笔记(4)</title>
+      <link href="/posts/9e558456/"/>
+      <url>/posts/9e558456/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>这是建站笔记第四篇文章。 谈一下评论功能。</p></blockquote><p>网站搭建好后，可以添加评论系统与访客互动。我写文章用的是_Gridea_，下面以<strong>Gridea+Gitalk</strong>为例搭建评论系统。</p><h1 id="1-Github"><a href="#1-Github" class="headerlink" title="1.Github"></a>1.Github</h1><h2 id="1-1注册-GitHub-Application"><a href="#1-1注册-GitHub-Application" class="headerlink" title="1.1注册 GitHub Application"></a>1.1注册 GitHub Application</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://github.com/settings/applications/new</span><br></pre></td></tr></table></figure><p>打开后页面如下： <img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210216204515.jpg" alt="GitHub Application1" title="GitHub Application1"></p><ul><li>_Application name_：<strong>必填</strong>，应用名称；</li><li>_Homepage URL_：<strong>必填</strong>，应用的网址，即使用Gitalk的网站的网址；</li><li>_Application description_：<strong>选填</strong>，应用的说明；</li><li>_Authorization callback URL_：<strong>必填</strong>，授权回调网址，网站访问的网址。</li></ul><h2 id="1-2生成Client-ID和Client-Secret"><a href="#1-2生成Client-ID和Client-Secret" class="headerlink" title="1.2生成Client ID和Client Secret"></a>1.2生成Client ID和Client Secret</h2><p>填完以后，点击_Register application_进入以下页面： <img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210216224842.jpg" alt="GitHub Application2" title="GitHub Application2"> 复制页面中的<strong>Client ID</strong>和<strong>Client Secret</strong>。</p><h1 id="2-Gridea"><a href="#2-Gridea" class="headerlink" title="2.Gridea"></a>2.Gridea</h1><h2 id="2-1Gitalk配置"><a href="#2-1Gitalk配置" class="headerlink" title="2.1Gitalk配置"></a>2.1Gitalk配置</h2><p>复制完以后，打开_Gridea_的评论配置。 <img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210216225202.jpg" alt="Gridea评论配置" title="Gridea评论配置"></p><ul><li>_Client ID_：填之前复制的<strong>Client ID</strong>；</li><li>_Client Secret_：填之前复制的<strong>Client Secret</strong>;</li><li><em>仓库名称</em> ：填<strong>存放评论的仓库名</strong>；</li><li><em>Owner</em>:填<strong>Github用户名</strong>。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> github </tag>
+            
+            <tag> 文章 </tag>
+            
+            <tag> gridea </tag>
+            
+            <tag> 仓库 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>建站笔记(3)</title>
+      <link href="/posts/d1141291/"/>
+      <url>/posts/d1141291/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>这是建站笔记第三篇文章。 谈一下图床。</p></blockquote><p>图床是用来存放文章图片的，所以图床的访问速度是很重要的。第三方的免费图床不太稳定，万一哪天关停了服务，会很麻烦的。所以自己搭图床有保障，比较稳定。 搭建图床可以租用服务器，但是费用有点高，对于业余写文章的人而言没有必要。后来发现可以用<strong>Github+PiceeGo</strong>搭建图床，配置简单而且稳定，缺点是别人可以访问图床。</p><h1 id="1-Github"><a href="#1-Github" class="headerlink" title="1.Github"></a>1.Github</h1><h2 id="1-1创建仓库"><a href="#1-1创建仓库" class="headerlink" title="1.1创建仓库"></a>1.1创建仓库</h2><p>首先创建一个新仓库，仓库需要设置为<strong>Public</strong>，不然通过PicGo上传的图片无法显示。 <img src="https://cdn.jsdelivr.net/gh/iwenyi/tuchuang/20210208205323.jpg#vwid=1426&vhei=884" alt="创建仓库" title="创建仓库"></p><ul><li><em>Repository name</em> 这是仓库名；</li><li><em>Description</em> 这是仓库的描述，可选填；</li><li><em>Add a README file</em> 添加自述文件，选不选都可以。</li></ul><h2 id="1-2创建-token"><a href="#1-2创建-token" class="headerlink" title="1.2创建 token"></a>1.2创建 token</h2><p>仓库建立后，点击右上角头像，然后点击<strong>Settings</strong>进入设置； <img src="https://cdn.jsdelivr.net/gh/iwenyi/tuchuang/20210208220534.jpg#vwid=1851&vhei=923" alt="创建 token1" title="创建 token1"> 接下来向下翻，在页面的下方找到<strong>Developer settings</strong>，点击进入； <img src="https://cdn.jsdelivr.net/gh/iwenyi/tuchuang/20210208221201.jpg#vwid=1846&vhei=918" alt="创建 token2" title="创建 token2"> 先点击<strong>Personal access tokens</strong>，然后点击<strong>Generate new token</strong>； <img src="https://cdn.jsdelivr.net/gh/iwenyi/tuchuang/20210208222055.jpg#vwid=1865&vhei=921" alt="创建 token3" title="创建 token3"> 填写<strong>Note</strong>,勾选复选框<strong>repo</strong>; <img src="https://cdn.jsdelivr.net/gh/iwenyi/tuchuang/20210208222952.jpg#vwid=1848&vhei=825" alt="创建 token4" title="创建 token4"> 接下来复制生成的<strong>token</strong>，<strong>注意：确保立即复制新的个人访问令牌，该token仅出现一次，关闭页面后无法再次看到它。</strong> <img src="https://cdn.jsdelivr.net/gh/iwenyi/tuchuang/20210208224349.jpg#vwid=1851&vhei=832" alt="创建 token5" title="创建 token5"></p><h1 id="2-PicGo"><a href="#2-PicGo" class="headerlink" title="2.PicGo"></a>2.PicGo</h1><h2 id="2-1下载PicGo"><a href="#2-1下载PicGo" class="headerlink" title="2.1下载PicGo"></a>2.1下载PicGo</h2><p>官网：_<a href="https://molunerfinn.com/PicGo/">https://molunerfinn.com/PicGo/</a>_</p><h2 id="2-2设置"><a href="#2-2设置" class="headerlink" title="2.2设置"></a>2.2设置</h2><p><img src="https://cdn.jsdelivr.net/gh/iwenyi/tuchuang/20210208225628.jpg#vwid=1098&vhei=618" alt="PicGo设置" title="PicGo设置"></p><ul><li><em>设定仓库名</em> 填仓库名；</li><li><em>设定分支名</em> 填<strong>main</strong>;</li><li><em>设定Token</em> 填之前创建的<strong>Token</strong>;</li><li><em>指定储存路径</em> 不需要填；</li><li><em>设定自定义域名</em> 默认的域名需要改一下，修改为加速域名。</li></ul><p><strong>格式：</strong></p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">https://cdn.jsdelivr.net/gh/github用户名/仓库/</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 域名 </tag>
+            
+            <tag> 文章 </tag>
+            
+            <tag> 仓库 </tag>
+            
+            <tag> 图床 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>建站笔记(2)</title>
+      <link href="/posts/c80f23d0/"/>
+      <url>/posts/c80f23d0/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>这是建站笔记第二篇文章。 谈一下写作工具。</p></blockquote><h2 id="概括"><a href="#概括" class="headerlink" title="概括"></a>概括</h2><p>静态页面写作一般用的是Markdown，Markdown 是一种轻量级标记语言。我现在用的是<strong>Gridea</strong>，<strong>Gridea是一个静态博客写作客户端</strong>，支持_Windows、Mac OS、Liunx_。可以使用_Github Pages_，_Gitee Pages_和_Coding Pages_等服务来搭建自己的静态博客，然后就能使用它进行愉快的创作了。当然也可以把它当作一个纯粹的markdown写作工具，并且最新的版本也支持 Katex 公式。</p><h2 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h2><p>可以在<strong>文章</strong>选项查看和管理文章，非常方便。 <img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210204230718.jpg#vwid=1630&vhei=1033" alt="Gridea文章" title="Gridea文章"></p><h2 id="菜单"><a href="#菜单" class="headerlink" title="菜单"></a>菜单</h2><p><strong>菜单</strong>可以管理页面的菜单。 <img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210204230521.jpg#vwid=1630&vhei=1033" alt="Gridea菜单" title="Gridea菜单"></p><h2 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h2><p><strong>主题</strong>管理网站的配置。在这里可以修改网站主题、名称、底部信息等。目前 Gridea 内置4 款主题 ，分别是_Notes、Simple、Fly、Paper_。除此之外可以在这里下载其他主题：<a href="https://gridea.dev/themes">https://gridea.dev/themes</a> <img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210204230939.jpg#vwid=1630&vhei=1033" alt="Gridea主题" title="Gridea主题"></p><h2 id="远程"><a href="#远程" class="headerlink" title="远程"></a>远程</h2><p><strong>远程</strong>是<strong>Gridea</strong>与<strong>Github Pages</strong>连接配置，只有配置完成后才能上传网站。</p><ul><li>域名：Github Pages 对应的域名（例如：<a href="https://shangshanruoshui.github.io/">https://shangshanruoshui.github.io</a> 或 <a href="http://example.com/">http://example.com</a>）</li><li>仓库名称：自己的静态文件存放的仓库（例如：<a href="https://shangshanruoshui001.github.io/">https://shangshanruoshui001.github.io</a>）</li><li>分支：你的 Github Pages 对应的分支（例如：main）</li><li>仓库用户名：仓库所属用户的用户名（通常就是自己的 Github 账号的昵称）</li><li>邮箱：Git 推送时使用的邮箱（通常就是自己的 Github 账号的邮箱）</li><li>令牌: Git 推送时需要的 Token，用来向 Github 提交构建后的文件 Github personal access tokens</li><li>CNAME: 可通过这个选项配置自己的域名（例如：<a href="http://example.com/">http://example.com</a>） <img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/20210204231022.jpg#vwid=1630&vhei=1033" alt="Gridea远程" title="Gridea远程"></li></ul><p><strong>Gridea官网：<a href="https://gridea.dev/">https://gridea.dev</a></strong> 先写到这里，抽空补充。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> github </tag>
+            
+            <tag> 域名 </tag>
+            
+            <tag> 文章 </tag>
+            
+            <tag> gridea </tag>
+            
+            <tag> markdown </tag>
+            
+            <tag> 写作 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>网页加载速度提升</title>
+      <link href="/posts/4482b3af/"/>
+      <url>/posts/4482b3af/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p><strong>网站正在完善中…..</strong></p></blockquote><p>现在本站为了<strong>提高访问速度，启动了双站点</strong>。国内访问部署在<strong>Coding</strong>上的站点，国外访问部署在<strong>Github</strong>上的站点。 通过前几天网站有时无法访问发现，Coding有时候不稳定，所以放弃使用Coding加速访问。 <strong>现在使用Github+Vercel来部署网站</strong>，现在加载速度不错。 如图： <img src="https://cdn.jsdelivr.net/gh/shangshanruoshui001/tuchuang/EJHU.COM2021.1.26%E6%B5%8B%E9%80%9F.jpg#vwid=1042&vhei=746" alt="网站加载速度测试" title="网站加载速度测试"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> github </tag>
+            
+            <tag> coding </tag>
+            
+            <tag> 站点 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>建站笔记(1)</title>
+      <link href="/posts/e3227013/"/>
+      <url>/posts/e3227013/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>这是建站笔记第一篇文章。 建网站需要有<strong>域名</strong>和<strong>主机&#x2F;空间&#x2F;服务器</strong>。</p></blockquote><p>下面先谈一下<strong>域名</strong>： 域名可以在域名注册商那里注册，具体的我就不说了，可以自己搜一下。我的域名是在Name注册的，支持团队也是不错的，不过需要用英语交流。Name.com Referral Program：<a href="https://www.name.com/zh-cn/referral/425c65">https://www.name.com/zh-cn/referral/425c65</a> 主流的国际域有_.com、.net、.org_（<strong>注意：.org目前不支持备案</strong>），.com是国际最广泛流行的通用域名格式。也有国家顶级域名，例如表示中国国家域名的.cn。 有了域名然后选<strong>主机&#x2F;空间&#x2F;服务器</strong>： 开始我用的是<strong>Vultr</strong>的Cloud Instances，$5&#x2F;1个月，自己备份和管理数据，有点麻烦而且小贵。 后来又尝试<strong>WordPress.com</strong>(不是<strong>WordPress</strong>)，就像在服务器已经安装好<strong>WordPress</strong>那样，只不过免费版使用的域名是：yourname.wordpress.com，不能使用自己的域名。还有，免费版在网页下方有”本站由WordPress.com驱动“，需要付费才能去除。 现在本站放在<strong>Github</strong>上，免费而且不用操心。<strong>缺点是：1.Github页面源存储库的限制为 1GB；2.发布的 GitHub Pages 站点不得超过 1 GB；GitHub 页面网站的‎‎软带宽限制为每月 100GB；4.‎GitHub 页面网站的‎‎软‎‎限制为每小时 10 个生成。详见官方说明：<a href="https://docs.github.com/cn/free-pro-team@latest/github/working-with-github-pages/about-github-pages">https:&#x2F;&#x2F;docs.github.com&#x2F;cn&#x2F;free-pro-team@latest&#x2F;github&#x2F;working-with-github-pages&#x2F;about-github-pages</a></strong> 先写到这里，如有不足之处欢迎指教。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> github </tag>
+            
+            <tag> 域名 </tag>
+            
+            <tag> 文章 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
