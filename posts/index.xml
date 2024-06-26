@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Wenyi&#39;s Blog</title>
+    <link>https://blog.wenyi.org/posts/</link>
+    <description>Recent content in Posts on Wenyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2020-2024 Wenyi</copyright>
+    <lastBuildDate>Tue, 11 Apr 2023 14:03:39 +0000</lastBuildDate><atom:link href="https://blog.wenyi.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关闭 Windows 11 推荐的项目</title>
+      <link>https://blog.wenyi.org/posts/turn-off-recommended-items-in-windows11/</link>
+      <pubDate>Tue, 11 Apr 2023 14:03:39 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/turn-off-recommended-items-in-windows11/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/turn-off-recommended-items-in-windows11/cover.webp" />
+    </item>
+    
+    <item>
+      <title>Everything 卸载后仍然存在右键菜单上</title>
+      <link>https://blog.wenyi.org/posts/completely-uninstall-everything/</link>
+      <pubDate>Sun, 16 Oct 2022 09:42:21 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/completely-uninstall-everything/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/completely-uninstall-everything/cover.webp" />
+    </item>
+    
+    <item>
+      <title>U 盘启动盘恢复为普通 U 盘</title>
+      <link>https://blog.wenyi.org/posts/restore-a-usb-boot-drive-to-a-regular-usb-flash-drive/</link>
+      <pubDate>Mon, 11 Jul 2022 13:51:05 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/restore-a-usb-boot-drive-to-a-regular-usb-flash-drive/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/restore-a-usb-boot-drive-to-a-regular-usb-flash-drive/cover.webp" />
+    </item>
+    
+    <item>
+      <title>解决 VMware 虚拟机运行时 “内部错误” 问题</title>
+      <link>https://blog.wenyi.org/posts/vmware-internal-errors/</link>
+      <pubDate>Tue, 29 Mar 2022 13:30:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/vmware-internal-errors/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/vmware-internal-errors/cover.webp" />
+    </item>
+    
+    <item>
+      <title>缓解 WordPress 文章 ID 不连续问题</title>
+      <link>https://blog.wenyi.org/posts/wordpress-post-id-discontinuity-issue/</link>
+      <pubDate>Sun, 26 Dec 2021 12:31:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/wordpress-post-id-discontinuity-issue/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/wordpress-post-id-discontinuity-issue/cover.webp" />
+    </item>
+    
+    <item>
+      <title>Bing 无法访问</title>
+      <link>https://blog.wenyi.org/posts/bing-is-not-accessible/</link>
+      <pubDate>Fri, 17 Dec 2021 04:12:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/bing-is-not-accessible/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/bing-is-not-accessible/cover.webp" />
+    </item>
+    
+    <item>
+      <title>让任务栏有趣起来的程序：RunCat</title>
+      <link>https://blog.wenyi.org/posts/runcat/</link>
+      <pubDate>Tue, 07 Dec 2021 04:11:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/runcat/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/runcat/cover.webp" />
+    </item>
+    
+    <item>
+      <title>安装 Windows 11 安卓子系统</title>
+      <link>https://blog.wenyi.org/posts/installing-the-windows11-android-subsystem/</link>
+      <pubDate>Tue, 02 Nov 2021 15:00:18 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/installing-the-windows11-android-subsystem/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/installing-the-windows11-android-subsystem/cover.webp" />
+    </item>
+    
+    <item>
+      <title>注册公众号了</title>
+      <link>https://blog.wenyi.org/posts/register-for-wechat-official-accounts/</link>
+      <pubDate>Wed, 27 Oct 2021 12:41:51 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/register-for-wechat-official-accounts/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/register-for-wechat-official-accounts/cover.webp" />
+    </item>
+    
+    <item>
+      <title>无法开启 Windows 发送可选数据诊断</title>
+      <link>https://blog.wenyi.org/posts/unable-to-turn-on-windows-send-optional-data-diagnostics/</link>
+      <pubDate>Sat, 23 Oct 2021 13:57:33 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/unable-to-turn-on-windows-send-optional-data-diagnostics/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/unable-to-turn-on-windows-send-optional-data-diagnostics/cover.webp" />
+    </item>
+    
+    <item>
+      <title>Hexo 点击文章变成了下载</title>
+      <link>https://blog.wenyi.org/posts/hexo-redirecting-articles-has-turned-into-downloads/</link>
+      <pubDate>Sat, 04 Sep 2021 14:05:09 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/hexo-redirecting-articles-has-turned-into-downloads/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/hexo-redirecting-articles-has-turned-into-downloads/cover.webp" />
+    </item>
+    
+    <item>
+      <title>禁用 XML-RPC 服务</title>
+      <link>https://blog.wenyi.org/posts/disable-xml-rpc/</link>
+      <pubDate>Wed, 18 Aug 2021 13:54:42 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/disable-xml-rpc/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/disable-xml-rpc/cover.webp" />
+    </item>
+    
+    <item>
+      <title>HTTPS 访问出现混合内容</title>
+      <link>https://blog.wenyi.org/posts/https-mixed-content/</link>
+      <pubDate>Sun, 01 Aug 2021 15:10:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/https-mixed-content/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/https-mixed-content/cover.webp" />
+    </item>
+    
+    <item>
+      <title>QQ 跳转链接</title>
+      <link>https://blog.wenyi.org/posts/qq-jump-links/</link>
+      <pubDate>Sat, 24 Jul 2021 14:01:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/qq-jump-links/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/qq-jump-links/cover.webp" />
+    </item>
+    
+    <item>
+      <title>更换小站 Logo 和 Favicon</title>
+      <link>https://blog.wenyi.org/posts/change-logo-and-favicon/</link>
+      <pubDate>Sun, 18 Jul 2021 13:06:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/change-logo-and-favicon/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/change-logo-and-favicon/cover.webp" />
+    </item>
+    
+    <item>
+      <title>域名从阿里云转入到腾讯云</title>
+      <link>https://blog.wenyi.org/posts/domain-name-transfer-from-alicloud-to-tencentcloud/</link>
+      <pubDate>Wed, 14 Jul 2021 13:32:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/domain-name-transfer-from-alicloud-to-tencentcloud/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/domain-name-transfer-from-alicloud-to-tencentcloud/cover.webp" />
+    </item>
+    
+    <item>
+      <title>升级到 Windows 11</title>
+      <link>https://blog.wenyi.org/posts/upgrade-to-windows11/</link>
+      <pubDate>Wed, 30 Jun 2021 11:05:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/upgrade-to-windows11/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/upgrade-to-windows11/cover.webp" />
+    </item>
+    
+    <item>
+      <title>检查电脑能否升级到 Windows 11</title>
+      <link>https://blog.wenyi.org/posts/preparing-for-the-upgrade-to-windows11/</link>
+      <pubDate>Fri, 25 Jun 2021 06:06:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/preparing-for-the-upgrade-to-windows11/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/preparing-for-the-upgrade-to-windows11/cover.webp" />
+    </item>
+    
+    <item>
+      <title>阿里云盘桌面端体验</title>
+      <link>https://blog.wenyi.org/posts/alidrive-for-desktop/</link>
+      <pubDate>Thu, 17 Jun 2021 21:51:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/alidrive-for-desktop/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/alidrive-for-desktop/cover.webp" />
+    </item>
+    
+    <item>
+      <title>Windows 10 开启自动登录</title>
+      <link>https://blog.wenyi.org/posts/windows10-automatic-login/</link>
+      <pubDate>Sat, 12 Jun 2021 14:44:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/windows10-automatic-login/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/windows10-automatic-login/cover.webp" />
+    </item>
+    
+    <item>
+      <title>jsDelivr 加速 Github 资源</title>
+      <link>https://blog.wenyi.org/posts/jsdelivr-accelerated-github-resources/</link>
+      <pubDate>Sun, 06 Jun 2021 14:31:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/jsdelivr-accelerated-github-resources/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/jsdelivr-accelerated-github-resources/cover.webp" />
+    </item>
+    
+    <item>
+      <title>Typecho 评论/时光机的时间格式</title>
+      <link>https://blog.wenyi.org/posts/typecho-time-format/</link>
+      <pubDate>Thu, 03 Jun 2021 21:53:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/typecho-time-format/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/typecho-time-format/cover.webp" />
+    </item>
+    
+    <item>
+      <title>性格主导色测试</title>
+      <link>https://blog.wenyi.org/posts/personality-test/</link>
+      <pubDate>Sat, 29 May 2021 16:17:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/personality-test/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/personality-test/cover.webp" />
+    </item>
+    
+    <item>
+      <title>网站状态页失效</title>
+      <link>https://blog.wenyi.org/posts/status-page-invalidated/</link>
+      <pubDate>Sun, 16 May 2021 20:47:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/status-page-invalidated/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/status-page-invalidated/cover.webp" />
+    </item>
+    
+    <item>
+      <title>天气信息 API 错误</title>
+      <link>https://blog.wenyi.org/posts/weather-api-error/</link>
+      <pubDate>Mon, 05 Apr 2021 05:06:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/weather-api-error/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/weather-api-error/cover.webp" />
+    </item>
+    
+    <item>
+      <title>修改默认端口</title>
+      <link>https://blog.wenyi.org/posts/modify-the-default-port/</link>
+      <pubDate>Mon, 29 Mar 2021 21:50:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/modify-the-default-port/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/modify-the-default-port/cover.webp" />
+    </item>
+    
+    <item>
+      <title>使用对象存储备份网站数据</title>
+      <link>https://blog.wenyi.org/posts/cos-backup-website/</link>
+      <pubDate>Sun, 21 Mar 2021 14:59:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/cos-backup-website/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/cos-backup-website/cover.webp" />
+    </item>
+    
+    <item>
+      <title>Uptime Robot 免费的网站状态监控工具</title>
+      <link>https://blog.wenyi.org/posts/uptime-robot/</link>
+      <pubDate>Thu, 18 Mar 2021 09:37:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/uptime-robot/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/uptime-robot/cover.webp" />
+    </item>
+    
+    <item>
+      <title>Firefox 翻译扩展</title>
+      <link>https://blog.wenyi.org/posts/firefox-translation-extension/</link>
+      <pubDate>Tue, 09 Mar 2021 05:58:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/firefox-translation-extension/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/firefox-translation-extension/cover.webp" />
+    </item>
+    
+    <item>
+      <title>Gitalk 评论出错</title>
+      <link>https://blog.wenyi.org/posts/gitalk-comment-error/</link>
+      <pubDate>Sat, 27 Feb 2021 04:31:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/gitalk-comment-error/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/gitalk-comment-error/cover.webp" />
+    </item>
+    
+    <item>
+      <title>修改 Github 用户名</title>
+      <link>https://blog.wenyi.org/posts/change-github-username/</link>
+      <pubDate>Fri, 26 Feb 2021 05:12:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/change-github-username/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/change-github-username/cover.webp" />
+    </item>
+    
+    <item>
+      <title>建站笔记 (4)</title>
+      <link>https://blog.wenyi.org/posts/website-log-four/</link>
+      <pubDate>Wed, 17 Feb 2021 15:14:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/website-log-four/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/website-log-four/cover.webp" />
+    </item>
+    
+    <item>
+      <title>建站笔记 (3)</title>
+      <link>https://blog.wenyi.org/posts/website-log-three/</link>
+      <pubDate>Wed, 10 Feb 2021 07:20:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/website-log-three/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/website-log-three/cover.webp" />
+    </item>
+    
+    <item>
+      <title>建站笔记 (2)</title>
+      <link>https://blog.wenyi.org/posts/website-log-two/</link>
+      <pubDate>Wed, 03 Feb 2021 23:19:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/website-log-two/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/website-log-two/cover.webp" />
+    </item>
+    
+    <item>
+      <title>网页加载速度提升</title>
+      <link>https://blog.wenyi.org/posts/webpage-speed-up/</link>
+      <pubDate>Thu, 28 Jan 2021 15:01:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/webpage-speed-up/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/webpage-speed-up/cover.webp" />
+    </item>
+    
+    <item>
+      <title>建站笔记 (1)</title>
+      <link>https://blog.wenyi.org/posts/website-log-one/</link>
+      <pubDate>Fri, 01 Jan 2021 14:33:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/website-log-one/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/website-log-one/cover.webp" />
+    </item>
+    
+  </channel>
+</rss>

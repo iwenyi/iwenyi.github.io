@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>笔记 on Wenyi&#39;s Blog</title>
+    <link>https://blog.wenyi.org/categories/%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content in 笔记 on Wenyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2020-2024 Wenyi</copyright>
+    <lastBuildDate>Fri, 26 Feb 2021 05:12:00 +0000</lastBuildDate><atom:link href="https://blog.wenyi.org/categories/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>修改 Github 用户名</title>
+      <link>https://blog.wenyi.org/posts/change-github-username/</link>
+      <pubDate>Fri, 26 Feb 2021 05:12:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/change-github-username/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/change-github-username/cover.webp" />
+    </item>
+    
+  </channel>
+</rss>

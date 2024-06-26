@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on Wenyi&#39;s Blog</title>
+    <link>https://blog.wenyi.org/tags/tools/</link>
+    <description>Recent content in Tools on Wenyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2020-2024 Wenyi</copyright>
+    <lastBuildDate>Tue, 07 Dec 2021 04:11:00 +0000</lastBuildDate><atom:link href="https://blog.wenyi.org/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>让任务栏有趣起来的程序：RunCat</title>
+      <link>https://blog.wenyi.org/posts/runcat/</link>
+      <pubDate>Tue, 07 Dec 2021 04:11:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/runcat/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/runcat/cover.webp" />
+    </item>
+    
+    <item>
+      <title>网站状态页失效</title>
+      <link>https://blog.wenyi.org/posts/status-page-invalidated/</link>
+      <pubDate>Sun, 16 May 2021 20:47:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/status-page-invalidated/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/status-page-invalidated/cover.webp" />
+    </item>
+    
+    <item>
+      <title>天气信息 API 错误</title>
+      <link>https://blog.wenyi.org/posts/weather-api-error/</link>
+      <pubDate>Mon, 05 Apr 2021 05:06:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/weather-api-error/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/weather-api-error/cover.webp" />
+    </item>
+    
+    <item>
+      <title>Uptime Robot 免费的网站状态监控工具</title>
+      <link>https://blog.wenyi.org/posts/uptime-robot/</link>
+      <pubDate>Thu, 18 Mar 2021 09:37:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/uptime-robot/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/uptime-robot/cover.webp" />
+    </item>
+    
+  </channel>
+</rss>

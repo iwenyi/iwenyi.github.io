@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>分享 on Wenyi&#39;s Blog</title>
+    <link>https://blog.wenyi.org/categories/%E5%88%86%E4%BA%AB/</link>
+    <description>Recent content in 分享 on Wenyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2020-2024 Wenyi</copyright>
+    <lastBuildDate>Tue, 07 Dec 2021 04:11:00 +0000</lastBuildDate><atom:link href="https://blog.wenyi.org/categories/%E5%88%86%E4%BA%AB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>让任务栏有趣起来的程序：RunCat</title>
+      <link>https://blog.wenyi.org/posts/runcat/</link>
+      <pubDate>Tue, 07 Dec 2021 04:11:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/runcat/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/runcat/cover.webp" />
+    </item>
+    
+    <item>
+      <title>QQ 跳转链接</title>
+      <link>https://blog.wenyi.org/posts/qq-jump-links/</link>
+      <pubDate>Sat, 24 Jul 2021 14:01:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/qq-jump-links/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/qq-jump-links/cover.webp" />
+    </item>
+    
+    <item>
+      <title>阿里云盘桌面端体验</title>
+      <link>https://blog.wenyi.org/posts/alidrive-for-desktop/</link>
+      <pubDate>Thu, 17 Jun 2021 21:51:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/alidrive-for-desktop/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/alidrive-for-desktop/cover.webp" />
+    </item>
+    
+    <item>
+      <title>性格主导色测试</title>
+      <link>https://blog.wenyi.org/posts/personality-test/</link>
+      <pubDate>Sat, 29 May 2021 16:17:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/personality-test/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/personality-test/cover.webp" />
+    </item>
+    
+    <item>
+      <title>Firefox 翻译扩展</title>
+      <link>https://blog.wenyi.org/posts/firefox-translation-extension/</link>
+      <pubDate>Tue, 09 Mar 2021 05:58:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/firefox-translation-extension/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/firefox-translation-extension/cover.webp" />
+    </item>
+    
+    <item>
+      <title>Firefox 翻译扩展</title>
+      <link>https://blog.wenyi.org/posts/firefox-translation-extension/</link>
+      <pubDate>Tue, 09 Mar 2021 05:58:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/firefox-translation-extension/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/firefox-translation-extension/cover.webp" />
+    </item>
+    
+  </channel>
+</rss>

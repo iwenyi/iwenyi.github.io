@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hexo on Wenyi&#39;s Blog</title>
+    <link>https://blog.wenyi.org/tags/hexo/</link>
+    <description>Recent content in Hexo on Wenyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2020-2024 Wenyi</copyright>
+    <lastBuildDate>Sat, 04 Sep 2021 14:05:09 +0000</lastBuildDate><atom:link href="https://blog.wenyi.org/tags/hexo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hexo 点击文章变成了下载</title>
+      <link>https://blog.wenyi.org/posts/hexo-redirecting-articles-has-turned-into-downloads/</link>
+      <pubDate>Sat, 04 Sep 2021 14:05:09 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/hexo-redirecting-articles-has-turned-into-downloads/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/hexo-redirecting-articles-has-turned-into-downloads/cover.webp" />
+    </item>
+    
+  </channel>
+</rss>

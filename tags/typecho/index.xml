@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Typecho on Wenyi&#39;s Blog</title>
+    <link>https://blog.wenyi.org/tags/typecho/</link>
+    <description>Recent content in Typecho on Wenyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2020-2024 Wenyi</copyright>
+    <lastBuildDate>Sun, 01 Aug 2021 15:10:00 +0000</lastBuildDate><atom:link href="https://blog.wenyi.org/tags/typecho/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTTPS 访问出现混合内容</title>
+      <link>https://blog.wenyi.org/posts/https-mixed-content/</link>
+      <pubDate>Sun, 01 Aug 2021 15:10:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/https-mixed-content/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/https-mixed-content/cover.webp" />
+    </item>
+    
+    <item>
+      <title>Typecho 评论/时光机的时间格式</title>
+      <link>https://blog.wenyi.org/posts/typecho-time-format/</link>
+      <pubDate>Thu, 03 Jun 2021 21:53:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/typecho-time-format/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/typecho-time-format/cover.webp" />
+    </item>
+    
+  </channel>
+</rss>

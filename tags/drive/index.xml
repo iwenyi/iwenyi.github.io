@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drive on Wenyi&#39;s Blog</title>
+    <link>https://blog.wenyi.org/tags/drive/</link>
+    <description>Recent content in Drive on Wenyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2020-2024 Wenyi</copyright>
+    <lastBuildDate>Thu, 17 Jun 2021 21:51:00 +0000</lastBuildDate><atom:link href="https://blog.wenyi.org/tags/drive/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>阿里云盘桌面端体验</title>
+      <link>https://blog.wenyi.org/posts/alidrive-for-desktop/</link>
+      <pubDate>Thu, 17 Jun 2021 21:51:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/alidrive-for-desktop/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/alidrive-for-desktop/cover.webp" />
+    </item>
+    
+  </channel>
+</rss>

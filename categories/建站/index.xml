@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>建站 on Wenyi&#39;s Blog</title>
+    <link>https://blog.wenyi.org/categories/%E5%BB%BA%E7%AB%99/</link>
+    <description>Recent content in 建站 on Wenyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2020-2024 Wenyi</copyright>
+    <lastBuildDate>Sun, 26 Dec 2021 12:31:00 +0000</lastBuildDate><atom:link href="https://blog.wenyi.org/categories/%E5%BB%BA%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>缓解 WordPress 文章 ID 不连续问题</title>
+      <link>https://blog.wenyi.org/posts/wordpress-post-id-discontinuity-issue/</link>
+      <pubDate>Sun, 26 Dec 2021 12:31:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/wordpress-post-id-discontinuity-issue/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/wordpress-post-id-discontinuity-issue/cover.webp" />
+    </item>
+    
+    <item>
+      <title>Hexo 点击文章变成了下载</title>
+      <link>https://blog.wenyi.org/posts/hexo-redirecting-articles-has-turned-into-downloads/</link>
+      <pubDate>Sat, 04 Sep 2021 14:05:09 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/hexo-redirecting-articles-has-turned-into-downloads/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/hexo-redirecting-articles-has-turned-into-downloads/cover.webp" />
+    </item>
+    
+    <item>
+      <title>禁用 XML-RPC 服务</title>
+      <link>https://blog.wenyi.org/posts/disable-xml-rpc/</link>
+      <pubDate>Wed, 18 Aug 2021 13:54:42 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/disable-xml-rpc/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/disable-xml-rpc/cover.webp" />
+    </item>
+    
+    <item>
+      <title>HTTPS 访问出现混合内容</title>
+      <link>https://blog.wenyi.org/posts/https-mixed-content/</link>
+      <pubDate>Sun, 01 Aug 2021 15:10:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/https-mixed-content/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/https-mixed-content/cover.webp" />
+    </item>
+    
+    <item>
+      <title>更换小站 Logo 和 Favicon</title>
+      <link>https://blog.wenyi.org/posts/change-logo-and-favicon/</link>
+      <pubDate>Sun, 18 Jul 2021 13:06:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/change-logo-and-favicon/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/change-logo-and-favicon/cover.webp" />
+    </item>
+    
+    <item>
+      <title>域名从阿里云转入到腾讯云</title>
+      <link>https://blog.wenyi.org/posts/domain-name-transfer-from-alicloud-to-tencentcloud/</link>
+      <pubDate>Wed, 14 Jul 2021 13:32:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/domain-name-transfer-from-alicloud-to-tencentcloud/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/domain-name-transfer-from-alicloud-to-tencentcloud/cover.webp" />
+    </item>
+    
+    <item>
+      <title>Typecho 评论/时光机的时间格式</title>
+      <link>https://blog.wenyi.org/posts/typecho-time-format/</link>
+      <pubDate>Thu, 03 Jun 2021 21:53:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/typecho-time-format/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/typecho-time-format/cover.webp" />
+    </item>
+    
+    <item>
+      <title>网站状态页失效</title>
+      <link>https://blog.wenyi.org/posts/status-page-invalidated/</link>
+      <pubDate>Sun, 16 May 2021 20:47:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/status-page-invalidated/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/status-page-invalidated/cover.webp" />
+    </item>
+    
+    <item>
+      <title>天气信息 API 错误</title>
+      <link>https://blog.wenyi.org/posts/weather-api-error/</link>
+      <pubDate>Mon, 05 Apr 2021 05:06:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/weather-api-error/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/weather-api-error/cover.webp" />
+    </item>
+    
+    <item>
+      <title>修改默认端口</title>
+      <link>https://blog.wenyi.org/posts/modify-the-default-port/</link>
+      <pubDate>Mon, 29 Mar 2021 21:50:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/modify-the-default-port/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/modify-the-default-port/cover.webp" />
+    </item>
+    
+    <item>
+      <title>使用对象存储备份网站数据</title>
+      <link>https://blog.wenyi.org/posts/cos-backup-website/</link>
+      <pubDate>Sun, 21 Mar 2021 14:59:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/cos-backup-website/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/cos-backup-website/cover.webp" />
+    </item>
+    
+    <item>
+      <title>Uptime Robot 免费的网站状态监控工具</title>
+      <link>https://blog.wenyi.org/posts/uptime-robot/</link>
+      <pubDate>Thu, 18 Mar 2021 09:37:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/uptime-robot/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/uptime-robot/cover.webp" />
+    </item>
+    
+    <item>
+      <title>Gitalk 评论出错</title>
+      <link>https://blog.wenyi.org/posts/gitalk-comment-error/</link>
+      <pubDate>Sat, 27 Feb 2021 04:31:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/gitalk-comment-error/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/gitalk-comment-error/cover.webp" />
+    </item>
+    
+    <item>
+      <title>建站笔记 (4)</title>
+      <link>https://blog.wenyi.org/posts/website-log-four/</link>
+      <pubDate>Wed, 17 Feb 2021 15:14:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/website-log-four/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/website-log-four/cover.webp" />
+    </item>
+    
+    <item>
+      <title>建站笔记 (3)</title>
+      <link>https://blog.wenyi.org/posts/website-log-three/</link>
+      <pubDate>Wed, 10 Feb 2021 07:20:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/website-log-three/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/website-log-three/cover.webp" />
+    </item>
+    
+    <item>
+      <title>建站笔记 (2)</title>
+      <link>https://blog.wenyi.org/posts/website-log-two/</link>
+      <pubDate>Wed, 03 Feb 2021 23:19:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/website-log-two/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/website-log-two/cover.webp" />
+    </item>
+    
+    <item>
+      <title>网页加载速度提升</title>
+      <link>https://blog.wenyi.org/posts/webpage-speed-up/</link>
+      <pubDate>Thu, 28 Jan 2021 15:01:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/webpage-speed-up/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/webpage-speed-up/cover.webp" />
+    </item>
+    
+    <item>
+      <title>建站笔记 (1)</title>
+      <link>https://blog.wenyi.org/posts/website-log-one/</link>
+      <pubDate>Fri, 01 Jan 2021 14:33:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/website-log-one/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/website-log-one/cover.webp" />
+    </item>
+    
+  </channel>
+</rss>

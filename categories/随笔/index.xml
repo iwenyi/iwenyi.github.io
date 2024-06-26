@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>随笔 on Wenyi&#39;s Blog</title>
+    <link>https://blog.wenyi.org/categories/%E9%9A%8F%E7%AC%94/</link>
+    <description>Recent content in 随笔 on Wenyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2020-2024 Wenyi</copyright>
+    <lastBuildDate>Fri, 17 Dec 2021 04:12:00 +0000</lastBuildDate><atom:link href="https://blog.wenyi.org/categories/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bing 无法访问</title>
+      <link>https://blog.wenyi.org/posts/bing-is-not-accessible/</link>
+      <pubDate>Fri, 17 Dec 2021 04:12:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/bing-is-not-accessible/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/bing-is-not-accessible/cover.webp" />
+    </item>
+    
+  </channel>
+</rss>

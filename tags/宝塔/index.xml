@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>宝塔 on Wenyi&#39;s Blog</title>
+    <link>https://blog.wenyi.org/tags/%E5%AE%9D%E5%A1%94/</link>
+    <description>Recent content in 宝塔 on Wenyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2020-2024 Wenyi</copyright>
+    <lastBuildDate>Mon, 29 Mar 2021 21:50:00 +0000</lastBuildDate><atom:link href="https://blog.wenyi.org/tags/%E5%AE%9D%E5%A1%94/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>修改默认端口</title>
+      <link>https://blog.wenyi.org/posts/modify-the-default-port/</link>
+      <pubDate>Mon, 29 Mar 2021 21:50:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/modify-the-default-port/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/modify-the-default-port/cover.webp" />
+    </item>
+    
+    <item>
+      <title>使用对象存储备份网站数据</title>
+      <link>https://blog.wenyi.org/posts/cos-backup-website/</link>
+      <pubDate>Sun, 21 Mar 2021 14:59:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/cos-backup-website/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/cos-backup-website/cover.webp" />
+    </item>
+    
+  </channel>
+</rss>

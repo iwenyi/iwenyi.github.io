@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Featured on Wenyi&#39;s Blog</title>
+    <link>https://blog.wenyi.org/featured/</link>
+    <description>Recent content in Featured on Wenyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2020-2024 Wenyi</copyright>
+    <lastBuildDate>Tue, 02 Nov 2021 15:00:18 +0000</lastBuildDate><atom:link href="https://blog.wenyi.org/featured/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>安装 Windows 11 安卓子系统</title>
+      <link>https://blog.wenyi.org/posts/installing-the-windows11-android-subsystem/</link>
+      <pubDate>Tue, 02 Nov 2021 15:00:18 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/installing-the-windows11-android-subsystem/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/installing-the-windows11-android-subsystem/cover.webp" />
+    </item>
+    
+    <item>
+      <title>升级到 Windows 11</title>
+      <link>https://blog.wenyi.org/posts/upgrade-to-windows11/</link>
+      <pubDate>Wed, 30 Jun 2021 11:05:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/upgrade-to-windows11/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/upgrade-to-windows11/cover.webp" />
+    </item>
+    
+    <item>
+      <title>检查电脑能否升级到 Windows 11</title>
+      <link>https://blog.wenyi.org/posts/preparing-for-the-upgrade-to-windows11/</link>
+      <pubDate>Fri, 25 Jun 2021 06:06:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/preparing-for-the-upgrade-to-windows11/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/preparing-for-the-upgrade-to-windows11/cover.webp" />
+    </item>
+    
+    <item>
+      <title>jsDelivr 加速 Github 资源</title>
+      <link>https://blog.wenyi.org/posts/jsdelivr-accelerated-github-resources/</link>
+      <pubDate>Sun, 06 Jun 2021 14:31:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/jsdelivr-accelerated-github-resources/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/jsdelivr-accelerated-github-resources/cover.webp" />
+    </item>
+    
+    <item>
+      <title>Firefox 翻译扩展</title>
+      <link>https://blog.wenyi.org/posts/firefox-translation-extension/</link>
+      <pubDate>Tue, 09 Mar 2021 05:58:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/firefox-translation-extension/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/firefox-translation-extension/cover.webp" />
+    </item>
+    
+  </channel>
+</rss>

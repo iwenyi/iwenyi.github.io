@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer on Wenyi&#39;s Blog</title>
+    <link>https://blog.wenyi.org/tags/computer/</link>
+    <description>Recent content in Computer on Wenyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2020-2024 Wenyi</copyright>
+    <lastBuildDate>Tue, 11 Apr 2023 14:03:39 +0000</lastBuildDate><atom:link href="https://blog.wenyi.org/tags/computer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关闭 Windows 11 推荐的项目</title>
+      <link>https://blog.wenyi.org/posts/turn-off-recommended-items-in-windows11/</link>
+      <pubDate>Tue, 11 Apr 2023 14:03:39 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/turn-off-recommended-items-in-windows11/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/turn-off-recommended-items-in-windows11/cover.webp" />
+    </item>
+    
+    <item>
+      <title>Everything 卸载后仍然存在右键菜单上</title>
+      <link>https://blog.wenyi.org/posts/completely-uninstall-everything/</link>
+      <pubDate>Sun, 16 Oct 2022 09:42:21 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/completely-uninstall-everything/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/completely-uninstall-everything/cover.webp" />
+    </item>
+    
+    <item>
+      <title>解决 VMware 虚拟机运行时 “内部错误” 问题</title>
+      <link>https://blog.wenyi.org/posts/vmware-internal-errors/</link>
+      <pubDate>Tue, 29 Mar 2022 13:30:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/vmware-internal-errors/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/vmware-internal-errors/cover.webp" />
+    </item>
+    
+    <item>
+      <title>让任务栏有趣起来的程序：RunCat</title>
+      <link>https://blog.wenyi.org/posts/runcat/</link>
+      <pubDate>Tue, 07 Dec 2021 04:11:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/runcat/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/runcat/cover.webp" />
+    </item>
+    
+    <item>
+      <title>安装 Windows 11 安卓子系统</title>
+      <link>https://blog.wenyi.org/posts/installing-the-windows11-android-subsystem/</link>
+      <pubDate>Tue, 02 Nov 2021 15:00:18 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/installing-the-windows11-android-subsystem/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/installing-the-windows11-android-subsystem/cover.webp" />
+    </item>
+    
+    <item>
+      <title>安装 Windows 11 安卓子系统</title>
+      <link>https://blog.wenyi.org/posts/installing-the-windows11-android-subsystem/</link>
+      <pubDate>Tue, 02 Nov 2021 15:00:18 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/installing-the-windows11-android-subsystem/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/installing-the-windows11-android-subsystem/cover.webp" />
+    </item>
+    
+    <item>
+      <title>无法开启 Windows 发送可选数据诊断</title>
+      <link>https://blog.wenyi.org/posts/unable-to-turn-on-windows-send-optional-data-diagnostics/</link>
+      <pubDate>Sat, 23 Oct 2021 13:57:33 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/unable-to-turn-on-windows-send-optional-data-diagnostics/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/unable-to-turn-on-windows-send-optional-data-diagnostics/cover.webp" />
+    </item>
+    
+    <item>
+      <title>升级到 Windows 11</title>
+      <link>https://blog.wenyi.org/posts/upgrade-to-windows11/</link>
+      <pubDate>Wed, 30 Jun 2021 11:05:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/upgrade-to-windows11/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/upgrade-to-windows11/cover.webp" />
+    </item>
+    
+    <item>
+      <title>升级到 Windows 11</title>
+      <link>https://blog.wenyi.org/posts/upgrade-to-windows11/</link>
+      <pubDate>Wed, 30 Jun 2021 11:05:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/upgrade-to-windows11/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/upgrade-to-windows11/cover.webp" />
+    </item>
+    
+    <item>
+      <title>检查电脑能否升级到 Windows 11</title>
+      <link>https://blog.wenyi.org/posts/preparing-for-the-upgrade-to-windows11/</link>
+      <pubDate>Fri, 25 Jun 2021 06:06:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/preparing-for-the-upgrade-to-windows11/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/preparing-for-the-upgrade-to-windows11/cover.webp" />
+    </item>
+    
+    <item>
+      <title>检查电脑能否升级到 Windows 11</title>
+      <link>https://blog.wenyi.org/posts/preparing-for-the-upgrade-to-windows11/</link>
+      <pubDate>Fri, 25 Jun 2021 06:06:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/preparing-for-the-upgrade-to-windows11/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/preparing-for-the-upgrade-to-windows11/cover.webp" />
+    </item>
+    
+  </channel>
+</rss>

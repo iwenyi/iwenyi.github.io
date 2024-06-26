@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on Wenyi&#39;s Blog</title>
+    <link>https://blog.wenyi.org/tags/security/</link>
+    <description>Recent content in Security on Wenyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2020-2024 Wenyi</copyright>
+    <lastBuildDate>Wed, 18 Aug 2021 13:54:42 +0000</lastBuildDate><atom:link href="https://blog.wenyi.org/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>禁用 XML-RPC 服务</title>
+      <link>https://blog.wenyi.org/posts/disable-xml-rpc/</link>
+      <pubDate>Wed, 18 Aug 2021 13:54:42 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/disable-xml-rpc/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/disable-xml-rpc/cover.webp" />
+    </item>
+    
+    <item>
+      <title>修改默认端口</title>
+      <link>https://blog.wenyi.org/posts/modify-the-default-port/</link>
+      <pubDate>Mon, 29 Mar 2021 21:50:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/modify-the-default-port/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/modify-the-default-port/cover.webp" />
+    </item>
+    
+    <item>
+      <title>使用对象存储备份网站数据</title>
+      <link>https://blog.wenyi.org/posts/cos-backup-website/</link>
+      <pubDate>Sun, 21 Mar 2021 14:59:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/cos-backup-website/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/cos-backup-website/cover.webp" />
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CDN on Wenyi&#39;s Blog</title>
+    <link>https://blog.wenyi.org/tags/cdn/</link>
+    <description>Recent content in CDN on Wenyi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2020-2024 Wenyi</copyright>
+    <lastBuildDate>Sun, 06 Jun 2021 14:31:00 +0000</lastBuildDate><atom:link href="https://blog.wenyi.org/tags/cdn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>jsDelivr 加速 Github 资源</title>
+      <link>https://blog.wenyi.org/posts/jsdelivr-accelerated-github-resources/</link>
+      <pubDate>Sun, 06 Jun 2021 14:31:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/jsdelivr-accelerated-github-resources/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/jsdelivr-accelerated-github-resources/cover.webp" />
+    </item>
+    
+    <item>
+      <title>jsDelivr 加速 Github 资源</title>
+      <link>https://blog.wenyi.org/posts/jsdelivr-accelerated-github-resources/</link>
+      <pubDate>Sun, 06 Jun 2021 14:31:00 +0000</pubDate>
+      
+      <guid>https://blog.wenyi.org/posts/jsdelivr-accelerated-github-resources/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.wenyi.org/posts/jsdelivr-accelerated-github-resources/cover.webp" />
+    </item>
+    
+  </channel>
+</rss>
